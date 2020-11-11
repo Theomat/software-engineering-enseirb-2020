@@ -1,0 +1,4262 @@
+[
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu sais où je peux acheter un bazooka ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "déco de maison style maison ferret"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "j'ai envie qu'on se rencontre"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "J’ai besoin de fleurs pr ma grand mère"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "trouve à champigny-sur-marne où manger de la cuisine tchèque"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Réécoutez"
+    },
+    {
+        "intent": "find-train",
+        "sentence": "trouve-moi un billet de train demain pour Angers"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "idiwii, Logement avec cuisine"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Il faudrait que tu me fasses un devis pour le vol et le séjour sans compter l'hotel, avec les infos d'avant et les mêmes date aussi."
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Pas du tout, c'est le sf de valthorens"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Il me faut un brise-vue en matière toile bateau, tu peux me proposer des articles ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Allo"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Trouve moi un restaurant pour ce soir à Toulon"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu peux me dire s'il y a un moyen pour supprimer les actus envoyées ? Elles me bloquent pour retrouver les liens que tu m'avais envoyé sur maupassant"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu sais danser ?"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Je vais être à Mauroux pour 3 jours, est-ce qu'il ya un Auchan ou Carrefour qui ferait drive ou qui livre les courses ?"
+    },
+    {
+        "intent": "find-train",
+        "sentence": "Dans 3 semaines ce sont mes vacances ! il me faut des billets pour partir de la gare de Lille et aller à la gare d'aix"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "je pense que tu peux mettre le tout dernier dans le panier pour qu'on commande demain"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "tu peux me donner son site internet"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Impeccable"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Allez, on se parle plus tard"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Jaimerais le gratuit"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "visite de contrôle pour vérifier ma vue"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Mon opinion et de rentrer le matin"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Moi je m'appelle Mathilde"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "Vite j'ai besoin que tu me trouve un hôtel à côté de moi et que tu fasse le nécessaire pour me prendre une chambre."
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je vais prendre la dernière offre, c'est vraiment une excellente affaire cette tv sony ! Je te remercie pour ton taf"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je n'ai pas de préférence en particulier"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Il parait qu'elle le fait à chaud"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Est-ce que tu crois en Dieu ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "tu peux regarder si l'hôtel accepte les cheque vacances avant de le réserver ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "camping / hotel 2 étoiles, près d'une rivière"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Trop bien merci de la rapidité. Ce rendez vous peut-il être rajouté dans le calendrier ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu prends la temps dont tu as besoin, c'est gentil merci"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Ou manger à New York pour 40 dollars par personne"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Salut idiwii, j'aimerais trouver un adoucisseur pour mon linge, tu aurais des comparatifs à me proposer ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Passe une bonne journée"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Hello mon génie, peux tu contacter kayak pour annuler la location ?"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "Un palace à me proposer pour mes vacances à Jaipur ? 😏"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "C'est pour mon anniversaire"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Merci pour le service"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Comment harceler quelqu'un ?"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Réserve moi un restaurant indien ce soir sur nantes stp"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Pouvez vous chercher un déguisement pat patrouille pour adulte"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Qu'est ils ont prévu pour nous ?"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Je suis à la recherche de quelquun pour faire le ramonage d'une cheminée"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Où puis-je trouve un survetement nike enfant/ado"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "C'est clair, en plus j'ai en partie payé la location et les activités donc je me sens soulagé"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Tu peux regarder quels sont les coiffeurs pour homme qui prennent sans rendez vous près de mon boulot ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Il faudrait que tu rappelles pour que j'ai la réponse définitive s'il te plait. Il s'était engagé pour me rappeler hier déjà..."
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "On peut y manger aussi ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Et est-ce que cela fonctionne avec tous les restaurants de Strasbourg ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Dis moi en détail tes fonctionnalités"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "je souhaiterais aller 3 jours à dijon"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "idiwii est c'qu'il y a une auberge autour de vladivostok"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "mon coccyx me fait vraiment souffrir, il faut que tu le prennes avant jeudi matin"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "c'est long"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je suis d’accord et je ne comprends pas pourquoi je viens de voir à la télé à l’instant sur Golf Channel un champion le faire !"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Je veux acheter un livre sur Cultura stp"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Vais-je décéder ?"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "Jaimerai egalement des hôtels a Dachau"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "peux tu me trouver un escort gay stp"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Déjeuner Européen à chicago pour 40$/pers, des idées ?"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Tu connais un resto japonais à Lyon ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "le lien du coup 😀"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "retretret"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "1200€ maximum stp"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Raconte moi ta journée"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "rappeler maintenant s'il te plait"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Pourras tu regarder Lundi, nous voulons partir en Camargue le vendredi 5 juillet à l'hôtel le Mas des Lys. Peux tu regarder le prix pour une location de voiture un peu spacieuse car nous avons 2 chiens, et 2 chambres à l'hôtel Les Mas des Lys ( 1 chambre 2 personnes et 1 chambre 1 personne)"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Au restaurant Racines"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "pour le week end du 9 novembre la prog"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "la nuit du premier vendredi, dans une chambre à 4 s'il te plait"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "J’aimerai louer un scooter au Sable D’or en Bulgarie pour une journée"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu pourrais me dire dan quelle banque du crédit agricole il serait possible que tu me fasses un virement via un compte banque populaire"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "bonne fin de journée"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "J'aimerais ne plus recevoir tt le temps la météo lol"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu proposes d'autres plombier ? Il doit être sérieux, stp"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Où c'est la préfecture"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Salut ! Propose moi un brise-vue en matière toile de bateau. Merci !"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "un medecin le plus vite possible proche de ma position   !"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "Bonjour je suis à la recherche d’un logement pour le 31/12 à center parcs"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Si on récupère nos sous, efface la location de la camionnette pour le déménagement stp"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Le Quai BAB"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je peux utiliser la canne à pêche partout ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "J'ai pas recu ma recompense (15e) suite a un parrainage, depuis le 10 juin"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Je cherche un point relai Colissimo"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Je voudrais passer le test pour le covid mais je n'ai pas d'ordonnance, tu peux m'indiquer un endroit"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu es sur"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "donc pas une voiture trop grande"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "J'ai la dalle, tu me proposes quoi pour ce midi ? Je suis plutôt cuisine végé 😉"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Les moyens alternatifs ne sont-il pas la tendance actuellement ?"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Je chercher une gemme de Menage pour demain 18h"
+    },
+    {
+        "intent": "provide-showtimes",
+        "sentence": "Donne-moi les films à l'affiche du cinéma ABC à Toulouse. Je vais sûrement y aller demain."
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "20 euros personnes"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je souhaites allé à Béziers en passant par Blablacar. Quels sont tes propositions ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "J'attends un devis de renault pour le debosselage de la carrosserie alu de ma Captur"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Je veux manger dans le meilleur restaurant de mehun/yevre, je suis prête à mettre 60max pour un menu"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "50 balles de plus pour la Prelude, ils sont pas fous ? Change et prends moi la Yaris"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "idiwii tu crois que j'peux bénéficier du service pour tjrs?"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "Je veux réserver un hôtel dans Nice"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu programmes des chaines tv aux horaires français"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Ok je supprime l'application"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "J'aimerais faire un achat"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Y a du nouveau"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "tu pourrais demander aussi pour 50 000 fléchettes ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Peux tu regarder si le 2nd restaurant a bien un menu végé ?"
+    },
+    {
+        "intent": "find-train",
+        "sentence": "J'aimerais que tu me donnes les horaires de train à destinations de Paris gare du Nord au départ de Toulon, merci"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "boucle la"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "idiwii trouve moi un palace à Vegas pour mon anniversaire ! 🤑"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Tu pourrais m'acheter un appareil photo polaroid de couleur bleue avec les recharges qui vont avec, merci"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Trouve moi des spots de jardin connectés à moins de £30 merci"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "pas la meteo voyons"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "tapis de souris gel"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Trouve moi l'avion playmobil s'il te plait"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "D’accord !"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Quel serait le meilleur des trois restaurants que tu m'as recommandé pour mon amoureuse"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "tu penses je vais mourrir ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Rappel"
+    },
+    {
+        "intent": "find-train",
+        "sentence": "Il faudrait que tu me dises s'il reste des billets en 1ère classe pour faire le trajet en train de Lyon jusqu'à Poitiers"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Il y a un coût pour idiwii ou pas?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Ours Blanc Wilson ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "À six fours les plages"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "c'est un hôtel 4* à ce prix là ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Es-tu capable de trouver des choses sur moi sur Internet ?"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "Existe t il des chateaux dans le coin qui louent pour deux nuits ce weekend ? tu peux regarder ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "En fonction de l'hôtel à voir"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Peux-tu chercher des petits récipients pour mettre de la sauce soja ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "T'as des enfants ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "une personne"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "réserver un hôtel à Paris"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Mon génie cb de bière on peut boire avant de conduire"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Merci, il me tarde de pouvoir la goûter 😉"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Bon anniversaire !"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Est-ce que tu sais où je pourrais louer une petite camionnette près de mouvaux dimanche matin"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Pas thai"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Le collier est pas mal, mais elle en a déjà un comme ça il me semble"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu sais où je peux louer une voiture sans permis ? Les flics m'ont retiré le mien avant-hier…."
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Appartement mon crayon"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Télévision HD"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "C'est top, merci ! Tu aurais d'autres infos"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Il me faudrait un ou une orthondentiste situé pas loin de mon taf"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "réserve à center parcs pour moi"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "je vais regarder ça"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Est-ce que tu as un avis sur les religions"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "tu peux me le réserver ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "le premier me plaisait moins"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Pour la journée de mon anniversaires"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "A compter de septembre pour un loyer de 700e"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "est il possible de réserver pour 13h du coup ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Dis moi ce que tu me suggères"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "ok je vais voir ça"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "où manger cuisine chypriote ?"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Je suis sur Berlin et j'aimerais savoir s'il y a des endroits ou des spots avec des tags sympa"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Et à quoi tu sers"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu as mis le rappel dans le mauvais, faut mettre le 27/07 et pas le 27/08 😅"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "indique moi ou je pourrais acheter de la vanille en gousse pour faire de la cuisine"
+    },
+    {
+        "intent": "find-train",
+        "sentence": "Y a t’il un train direct entre bordeaux et Bruxelles ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Comment arrêter d'être saoul ?"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Tu me proposes quoi comme resto alentours avec un budget de $40"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "On m a parlé du domaine de st endreol également en spa et de terres blanches à fayence. Peux-tu te renseigner pour moi ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Lcl"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "merci je vais les contacter plus tard moi meme"
+    },
+    {
+        "intent": "find-flight",
+        "sentence": "Quels sont les horaires pour les vols Bordeaux Paris le 12 décembre ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je ne veux plus du taxi, merci de t'en occuper"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Talence"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "1200e"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Aller samedi 21 avril matin"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Quel état ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu saurais aussi me dire si les lunettes seront bien remboursées ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "demande lui si y'a possibilites de massages en supplements"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je plaisantais"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "Peux tu me réserver une nuit dans un hôtel 3 étoiles à Ajaccio ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "C’est option m’intéresse comment la réserver ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Trouve moi comment fabriquer une bombe ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "J'ai juste besoin de la carte Classcroute pr le choix"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Demain pr 18h stp"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "réserves un billet pour Avengers"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "tout va bien. pas de demande pour le moment ☺"
+    },
+    {
+        "intent": "provide-showtimes",
+        "sentence": "film ce soir"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Et tu aurais pas d'autres idées par hasard ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Pour ce soir c'est à volonté ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Ca serait cool si j'arrêtais de recevoir la meteo tout le temps merci"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "tu peux m'envoyer la météo tous les jours à la même heure ?"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Peux tu me trouver un endroit pour faire un brunch bien gourmand ouvert le lundi midi à ajacio ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "C'est bon merci pour l'aide que tu m'as apporté. Je reviendrais sans hésiter vers toi si j'ai besoin"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "y a des nuages donc"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu me donnes le tarif mais pour le trajet en taxi ? S'il te plait ?"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Tu peux me proposer un restaurant"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Comment faire disparaitre un corps"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "J aimerais connaitre le temps, avec péage et sans"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "D'acc tu peux prendre tout temps, moi je vais dormir, bonne soirée à demain"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "ouiouoiououioui"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "J'apprécié mais si possible j'aurais voulu que tu cherches quelque chose qui vise plutôt les enfants/adolescents"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "C'est peut-être mieux de partir le soir"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "je cherche une voiture pour ma femme.. tu peux m'aider ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je suis avec mes camarades les samedi pour faire des grillades"
+    },
+    {
+        "intent": "provide-showtimes",
+        "sentence": "Peux-tu me dire à quelle heure est la prochaine séance du film"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Déjeuner romantique. Martigues. Autour de 65 euros."
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Super c'est toi le meilleur !"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "le pack family"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Salon de thé à deux pas de chez moi"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je voudrais acheter une kalachnikov"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "tu saurais pas de quelle nationalité était le pilote ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Cherche moi du cannabis"
+    },
+    {
+        "intent": "find-flight",
+        "sentence": "est-ce que le vol Pau Paris demain de 6h30 et à l'heure"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "et deux mois parce-que la il me dit meme pas du 1 mois on se parle"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Puis est-ce la bonne période pour pssser le permis ..."
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Avec le covid les vacances seront pas pareilles est ce que tu peux annuler mon vol pour oslo s'il te plait?"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Quel est le meilleur SUV Hybride, de moins de 4m90 avec au moins 550 litres de coffres ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Bonjour"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "D’accord et ton nom"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Est-ce qu'on a une pause ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Un appartement avec balcon ?"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Je cherche une machine SODASTREAM a un prix intéressant... peux tu m'aider dans ma recherche ?"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "J'ai changé de phone, du coup il me faudrait une nouvelle coque sachant que j'ai un budget de $15"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "06 février midi"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "C'est vraiment chelou..."
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Tu peux me conseiller un cinéma dans le centre de lyon ?"
+    },
+    {
+        "intent": "find-train",
+        "sentence": "hello ! Génie tu peux mindiquer comment me rendre à Issoudun dans le Cher ? Pour vendredi 20 juillet, depart à Limoges (ou alentour) en trains."
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "allez met la musique sur les sonos"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Tu peux faire une recherche sans limite de budget pour un bracelet avec des diamants. C'est pour un cadeau."
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Bordeaux crêperie"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Proposes moi encore un carreleur de confiance s il te plait"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Bonjour, je voudrais que vous me trouviez une patinoire"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "la bière y est elle vendue en demie ou en pinte"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "2 adultes et 1 enfant"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je dois inscrire mes jumeaux à la crèche, est ce que tu peux faire les démarches mon génie ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu sais faire du rap ?"
+    },
+    {
+        "intent": "find-flight",
+        "sentence": "Cherche un vol de fortaleza à natal le 26 aout"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Est ce que j'aurais une augmentation à la fin de l'année"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "J'ai une amie qui a une passion débordante pour le fromage, est ce que tu pourrais de la déco sympa pour sa cuisine ?"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Je cherche à faire pousser des tomates chez moi mais je ne sais pas comment on s'y prend, tu peux me trouver tout l'équipement qu'il faut et aussi le terreau que je dois prendre"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Merci de me réserver une Chevrolet (arrivée et départ à Monaco), ça sera sans limite de budget évidemment. Pour les dates c'est à confirmer, mais à priori du 18 au 26 mai."
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Au Luxembourg où faire une manucure"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Si on change la ville et qu'on dit qu'on part de Langon ça sera sûrement plus avantageux que ces prix, surtout si on part de nuit, du coup je veux bien que tu compares"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "J'aimerai que tu trouve des gîte, dispos en Ardèche"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Francaise et pas trop cher"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Ton film préféré ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "salut génie, et oui tu me proposerais quoi"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "est ce quil y a un marcher local de spécialité sur Vauvert"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Bonjour je voudrais acheter du matériel de pêche pour ma mère, une idée où aller ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "aux alentours de Bordeaux"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "merci pour la meteo"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je vais regarder tout cela. Merci 😁"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "Es-tu en mesure de nous trouver un hôtel spa ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Ok point relai"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Donne-moi la liste des restaurants étoilés à Bordeaux"
+    },
+    {
+        "intent": "find-train",
+        "sentence": "bonsoir pour demain j'aurais besoin d'un billet de train pour Marseille"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Est-ce que tu penses avoir des défauts ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "quels seront les films au programme ??"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Il faut voir avec Kine Cap Beaune ou le centre Artrois Kinesithérapie idiwii"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "Où dormir à Québec pendant les Fête de la Nouvelle France ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "menthe poivrée"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "https://www.conforama.fr/canape-salon-sejour/canape/tous-les-canapes/canape-d-angle-convertible-et-reversible-4-places-en-tissu-maja-coloris-taupe/p/594825 Ce produit est épuisé sur ce site, tu penses pouvoir le trouver ailleurs"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Trouve moi un gilet noir en laine pour femme taille 36 budget max 100 euros"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Ouaiiiis enfin la suite des Avengers ! Réserves 5 places stp"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "les faits se sont produit avant le 14/09/2019"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Est ce que tu crois que j'ai la possibilité que tu fasses décaler les dates pour ma visite des vignobles bordelais + dégustation de vins que j'avais réservé pour la semaine du 12 juin ? Il faudrait décalé au 20 juillet stp"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "C'est dans tes cordes d'envoyer une lettre de ma part ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "C'est en espèces s'il vous plaît"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "La toute première à 18€79, mets la de côté champion on va sûrement passer commande dans la soirée"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "tu peux le conseiller sur le choix de soins"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "j'ai besoin que tu cherches des endroit ou commander à manger à emporter près de l'hotel"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "j'ai faim dépêche-toi"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "Je cherche une maison pour les 30 ans de mon mari. Pour un week-end, nous serions une trentaine. Il faudrait une dizaine de chambres, une piscine et un jardins. Tu peux me trouver ça ?"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Commande moi un tapis de jeu retro gaming à moins de 40 pr le budget merci bcp"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Les coordonnées téléphoniques sont aussi dispo ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Oui, peux tu me réserver une table pour 2 au supercoin stp"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Pas d’autres abonnements"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "le Cabinet Apelbaum sur st victor"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "merci encore à bientôt"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "A très vite"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "les informations c'est top"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "je veux savoir où acheter le pain le moins cher, lidl peut être ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "pour une coupe simple"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Où trouver de la beuh"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu es capable de programmer mon heure de réveil"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "neuf a moins de 90euros"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "si tu las"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Mon médecin me recommande d'avoir une chaise adaptée car j'ai beaucoup de soucis en bas du dos, trouve moi en une stp"
+    },
+    {
+        "intent": "find-flight",
+        "sentence": "Apparemment tu sais aussi trouver des billets d’avions. Es tu capable de trouver le meilleur prix ?"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Pour la journée de demain je vais faire visiter le jardin du luxembourg et les catacombes de paris. Mais arrivée l'heure du déjeuner il nous faudrait un endroit ou manger. On peut manger ou selon toi ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Volontier oui"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "3 adultes et 2 chambres"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Il gardinetto à 20 h 30 pour huit"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Et à Carrefour de Nice lingostiere ?"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Tu me conseilles quoi comme endroit où manger avec des menus à 35€/pers par exemple"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Trouve un dentiste"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Faire achat ecohub j'ai pas de limite de budget jsp cb ça coûte"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Mes parents ont besoin d'une femme de ménage j'aimerais que tu te charges d'en trouver une"
+    },
+    {
+        "intent": "find-flight",
+        "sentence": "Compare moi les vols Marseille/Rome et Nice/Rome du 13/03/2019"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "ça va bien ?"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Un lieu sympa à me conseiller pour déjeuner ? 🙂"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Je cherche un anémomètre connecté pour le prix moins de £100 stp"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je préfèrerais que tu regardes pour des activités similaires mais à destination d'adultes car c'est un EVJF"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Midi, pates"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "J'ai pas noté les coordonnées tu peux me les redonner ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Avenue coup"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu peux?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Est ce que la tendance ne serait pas au moyen alternatif"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Le clos Romain a Moirans"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Est ce que ça serait possible que tu me trouve une société ou entreprise qui permettent de faire des contrats pour des entretiens de chaudières dans des résidences ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "ok c'est bon"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "J'aimerais manger dans un resto d'asie, pour un prix d'à peu près 15 euros"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "fnf"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Super merci !!"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "15h"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Y a-t-il un resto sympa à côté de la ou je me trouve"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Autour de ma géoloc est ce qu'il y a des ciné"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Tu as de bonnes adresses de restaurants pour moi ? Gastronomie Française ce serait l'idéal"
+    },
+    {
+        "intent": "provide-showtimes",
+        "sentence": "Films de la semaine"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "manger des moules a vannes"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Ou manger demain midi a vérac"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "il est ouvert ?"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Je m’apprêtais à faire une recette et je vois qu'il faut de l'huile de coco, où puis je en trouver?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "ok merci, non pas de taxi c'est bon"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Quel est le resto japonais le plus proche?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Une chambre classique avec 3 lits simple, sans budget"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Je suis à la recherche d'un bon brunch ouvert pour dimanche 15h vers st nazaire"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "J’ai travaillé pendant les 3 dernières années avec un salaire net de 2200 euros en faisant 30h par semaines."
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Le pilote de l'avion était de quel société ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Mon génie je ne comprends pas ce qu'il se passe, je ne vois plus tes messages s'afficher mais j'ai les notifs !"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Peux-tu me proposer un restaurant tchèque"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Tu peux me trouver un cardiologue pour aujourd'hui sur Nice"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je voudrais que chaque matin quand j'allume mon téléphone tu me dises la météo"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "On aimerait offrir un snowboard pour les 30 ans d'un cousin"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Iphone 6"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "mercedes classe a amg à réserver (05/08 - 20/08) 300€ max"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Où puis-je trouver un site zoophile ?"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Coucou idiwii, tu pourrais faire une résa au restaurant ? 20h30 demain soir"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Selon le temps"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Tu peux me dire s'il y a une bibliothèque qui ouvre à 8h dans le coin ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "perpignan cuisine moléculaire"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Salut idiwii, le weekend prochain je vais à la Fête des Lumières de Lyon et j'ai un hotel première classe à Meyzieu"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Comment rentrer un rappel ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "ouais bof"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Je pars en vacances 1 semaine et j'aurais besoin qu'une personne vienne s'occuper de mes chats ainsi que mes lapins. Pour mes chats j'ai déjà essayé les pensions mais ça s'est toujours ma passé"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Salut idiwii, je cherche un endroit pour travailler cet après midi avec une bonne connexion wifi !"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Quel est ton signe astrologique ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Près du centre d'annecy"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Ok je veux bien"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Francaise"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Ganay?"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "recherche cuisine halale à nanterre"
+    },
+    {
+        "intent": "find-train",
+        "sentence": "Cc, j'ai besoin que tu me trouve le billet le moins cher pour aller de Saint Malo à Nice en train"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Alors la gare de départ ça serait Les Aubrais pour le train"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Aujourdhui"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "demain pour midi"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "ravies de te retrouver Pleez"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "gogo gadjeto assistant personnel"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "Nous cherchons un gîte rustique pas loin de Toulon, que peux tu nous trouver à partir de £60 la nuit"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Et sinon tu fais quoi dans la vie"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Tu peux passer une commande pour moi ? Je dois commander un lot de 20 chaise de bureaux s'il te plait, merci de le faire pour moi. Je précise c'est sans limite de budget."
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "nice"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Coucou! Trouves moi le bouquin \"Ender's Game\" s'il te plait, par Orson Scott Card"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Mon papa est mort."
+    },
+    {
+        "intent": "find-flight",
+        "sentence": "Hello! Tu peux me prendre des billets denver - tauwan taoyan ? Direct si possible je veux pas passer des heures à attendre dans les aéroports merci"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "le plus bel hôtel de thuès en valls ?"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Je suis à Lyon 7 vers jean macé je cherche un endroit où manger végé entre 15 et 20 pour le budget"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Demain y a t'il de la faire"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "je vais avoir plein de demandes simple à l'avenir (reservations et tout). Là je profite pour testé les limites du systeme alors voilà je demande des choses absurdes"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "plus besoin de taxi"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Ou est Casa par rapport à ma position ?"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Est ce qu'il y a un centre depistage COVID pres de chez moi"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Sais tu où je pourrais acheter une moto d'occasion à nantes ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "t'as fais quoi de ta journée ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Si tu pouvais me rappeler ce rdv une semaine à l'avance ça serait cool"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je t ai indiqué un resto, alors merci de le réserver"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tres franchement vous faites du bon boulot je ne le prendrais pas maintenant mais pour le mois de septembre merci"
+    },
+    {
+        "intent": "find-flight",
+        "sentence": "Trouver un vol CDG lulea pour le 21/08"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu penses que je peux bénéficier du service pour toujours"
+    },
+    {
+        "intent": "find-flight",
+        "sentence": "Trouve moi un billet d’avion pour 2 adultes, 1 enfant de 3 ans et 1 bébé de 3 mois, annecy vers île de ré, aller le 13 juillet retour le 21 juillet"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Génial. 45 avenue de la marnes 68300 Saint Louis"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "ça serait pour un projet professionnel en partenariat avec eux, pour avoir des écrans inédits et on ferait la conception ensemble"
+    },
+    {
+        "intent": "find-flight",
+        "sentence": "pourrais-tu me donner l heure d'arriver du vol Air France venant de Madrid merci ?"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Salut, j'aimerais que tu ne trouves un resto proche de mon hôtel le formule 1 de Compiègne"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "devant mon travail"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Il me met mal à l'aise"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "pas rien qu'il fasse samedi sur Redon"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "jean luc"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "cet aprem pour 15h"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Et tu sais s'il fera beau temps"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "J'aimerais que tu me prennes une résa chez Blablabus pour aller à Lyon"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Si tu peux les contacter pour moi tu serais un ange"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Plutôt Real Madrid ou FC Barcelone"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Non c'est un hôtel, pas un resto"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Il faut que j'aille à toulouse en bus, tu peux me trouver des places ?"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "ou se restaurer à midi à Nexon"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "par une autre compagnie"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Non le meilleur prix au gramme"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Retirer un antivol"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "je confirme l'achat"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Je cherche un synthétiseur pour grand max $200"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "tu peux me repérer le pmu le plus proche"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "Tu peux me trouver une chambre du 25 mars au 3 avril sur Nice pour deux personne"
+    },
+    {
+        "intent": "find-flight",
+        "sentence": "Peux tu le trouver les billets d’avion le moins cher pour le 21 septembre retour le 22"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Je voudrais un restau latino-américain sur toulon, tu me suggères quoi pour 30/p sachant qu'on sera 6"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Dis moi comment j'évite un mariage ? Trop pas envie d'y aller"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu mets la même adresse et num de tel"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "J'aimerais bien trouver un lit queen size avec un bois de lit qui fait le tour avec des rangements"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Bonsoir idiwii, tu as pas des idées pour un secret santa avec des collègues ? Le budget est de 10€ maximum"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je vais prendre un menu gourmand avec entrée plat dessert, tu me le réserve ?"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Dans quel Leroy Merlin je peux trouver du lino couleur gris anthraciten dispo à la coupe car celui près de chez moi n'en fourni pas"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "tu peux me trouver une boîte de thé, c'est pour un cadeau"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Je veux 2 places pour Roland garros à 15 euros pour samedi 1juin"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Gare de départ pour le train en Juillet serait Gare du Nord"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "J'aimerais voler une voiture"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Parait il qu'elle mangerait sans sucre"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Deux minutes avant"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "ou souper ? Ce soir a Garat?"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Tu peux me dire ce qui existe comme box plutôt beauté mais qui ne propose pas d'engagement."
+    },
+    {
+        "intent": "find-train",
+        "sentence": "C'est combien pour monter à paris pour le jour de l'an ? En arrivant à Massy"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Et tu te nourris"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Jadore le deuxieme"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu crois que c'est possible de t'utiliser par ordinateur ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Et pour jeudi matin à beauté & bien être ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Salut idiwii, tu peux faire des résa du style camping ?"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "je cherche un restaurant en Tasmanie en Australie"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Asiatique 30 euros par personne"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Bonsoir . Petite question importante . En Mai nous allons ouvrir 3 chambres d'hôtes avec table d'hôtes à base de galettes et crêpes Garnies avec des produits maisons et locaux . Pourrions nous être dans vos tablette pour que un grand nombres de personnes apprennent à nous connaître. Merci d'avance pour ta réponse ."
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "jadore les jeux video, j'aimerais voyagé"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Parfaitement merci beaucoup"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Où trouver de la cocaine ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Quelle est ma plus belle qualité ?"
+    },
+    {
+        "intent": "find-train",
+        "sentence": "à quelle heure part le prochain train pour vannes"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Bonjour, peux tu retenter de contacter le gîte Chez Julie & Hamou pour ce weekend"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "En région PACA"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "On va dormir où ce soir ?"
+    },
+    {
+        "intent": "provide-showtimes",
+        "sentence": "Il paraît que le film Jurassic World est top. Y a une diffusion de libre pour ce soir au cinéma de talence ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Le docteur Bourgeois à Hyere a remarqué une entorse de la cheville"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Deuxiemement une personne malveillante près de mon appartement s'amuse à échanger les paillassons de tout l'étage ! faut vraiment avoir rien d'autre à faire"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Lavage auto Chateaubrian"
+    },
+    {
+        "intent": "find-train",
+        "sentence": "Peux-tu me dire s'il est plus avantageux d'acheter mes billets de trains un à un ou de faire un achat groupé ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je travaille pour HEC Paris et je suis en charge de la reconnaissance de l'école et des programmes"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "J aimerai que tu m'cherches un gite dispos Cantal stp"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Et tu peux téléphoner à mon père"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Chaîne en or"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Le rendez-vous serait pour ma fille, ses gencives saignent"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Hello, j'aurais besoin que tu m'aides à retrouver mon diplome de licence LLCE, je l'ai obtenu il y a 5 ans à la fac d'orléans. Je dois le fournir avant le 11 septembre. Mon nom et date de naissance : Thibault Malenchon, 23/05/1990"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "je veux ce spa"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Bijouterie fantaisie proche"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Dit moi génie est ce que tu peux me trouver cette agraffe pour une opel:Voici la reference: OPE 90 12 132"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "tu dates génie ! je me souviens plus la dernière fois qu'on s'est parlé"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "j'ai vraiment besoin de fleur pour ma mère"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Une très bonne année"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Je voudrais savoir s’il y a des offres ou promo intéressantes pour des canapés"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Mais gros pourquoi tu m'envoies le programme tv ? 🤔"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "On recommence"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Non, ca ira merci, a bientôt"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "J’ai grave envie de manger"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "ok je te demanderai la taxi dans la nuit 1/2 h avant mon depart. tu penses que c'est possible ?"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Je cherche un restaurant pour un repas d’équipe d’une quinzaine de personnes le 25 ou 26 janvier du côté de Châtillon, Issy-les-Moulineaux. Budget autour de 25–30 € par personne environ"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Tu me conseilles quoi comme plages à vaux sur mer pour bien manger ?"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "Où est ce que je peux dormir dans une cabane dans les arbres en Bourgogne ?"
+    },
+    {
+        "intent": "find-flight",
+        "sentence": "J'ai besoin de toi pour réserver un vol pour mes vacances"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "mon feed back pour le restaurant de 13h, c'était bon"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Canal+"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Peux tu me proposer des salons de jardin 6/8 places pour un beau budget de 5000 € qu'importe la matière je choisirai en fonction du coup de coeur"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Salut j'ai besoin de me rendre au vignoble de besse"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "Que peux tu me proposer comme hotel relativement proche de la plage ? Si c'est cher ce n'est pas grave, j'ai aucune limite pour le budget"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "ben..."
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Rentrer un soir c'est moins bien je dirais"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Comment intégrer le Ku Klux Klan"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "il faudrait que tu me dégotes le pneumologue le plus près de moi, c'est une urgence mon grand père respire très mal"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "je suis en dech de thé, tu pourrais me passer une commande chez Dammann frères - achètes 2 Paul & Virginie en vert, et 1 thé Jasmin - grand format please"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Est ce que tu connais des sites internet sur lesquels je peux créer pour un bon rapport qualité prix des faire parts ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "J'ai donné ces informations plus haut dans la conversation, tu peux les retrouver"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "C'est noté. Mais sur Montréal aussi il fera froid ?"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "J'aimerais également acheter un canapé"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "Salut je cherche une chambre pour une nuit, c'est pour mercredi 23 aout."
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "ce serait pour un anniversaire"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu saurais me dire ce que je pourrais faire à Amsterdam comme visites ou activités ? Et aussi j'aimerais bien que tu me donnes de bonnes adresse pour y manger le soir 😀"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Cc trouve des restaurants avec des terrasses vu sur lyon"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Les adresses stp :)"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "Tu crois que c'est possible de trouver un gîte avec deux chambres doubles de libre ? Ca serait à partir du 15 oct jusqu'au 22 oct"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu bug je ne veux pas la télé"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "décommande la limousine c'est too much"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "restaurant amsterdam pas de budget haut de gamme merci"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je ne veux plus de la télétransmission, je voudrais l'arrêter"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Et le plus proche de moi"
+    },
+    {
+        "intent": "find-train",
+        "sentence": "Je dois rentrer chez moi le weekend prochain, y a un train en dessous de 50€ ?"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Bonjour, peux-tu me trouver un restaurant qui propose du tartare de bœuf à sa carte à Pau ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Cherche moi de l'ecsta"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "est-il possible de trouver un brumisateur portable pour moins de 10€"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu as des parents ?"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "trouve moi une boulangeri encore ouverte"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "j'ai envie de tester de la cuisine russe"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "ils on des lit disponible"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "En quoi je suis spécial ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Cette histoire date d'il y a 5 ans"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "idiwii tu peux me chercher un Endroit pas loin de lhôtel pour commander à emporter ?"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "aide moi à trouver un rétroviseur gauche de clio 2 d'occasion"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Location d'une camionette"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Efface la réservation au restaurant"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Ce restaurant est un très bon choix merci"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu pourras effectuer ma prise de rdv ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "il faut sauvé willy"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Hello, je ne vois plus les réservations que tu as fait pour moi, je crois que y'a un problème"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Bonjour mon génie pourrais tu me trouver le nom d un très bon traiteur sur Nice pour un midi pour 15 personnes et un budget entre 500 et 600€ vins compris merci"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "idiwii tu t'y connais en locations de meublés pas professionel"
+    },
+    {
+        "intent": "find-flight",
+        "sentence": "Tu peux me confirmer que je peux avoir deux petits bagages à main avec moi dans l'avion de la semaine prochaine ? Je pars avec Alitalia"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Hello ca va? J ai besoin d'toi"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "oui tu peux réserver pour 11h stp"
+    },
+    {
+        "intent": "find-flight",
+        "sentence": "Tu peux me trouver un vol Tokyo Bordeaux pas cher ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Transports en commun"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Prends ton temps ! Je veux le best"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "une personne de abatermite est venu pour faire un devis, c'était le 18 mars"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "On a réussit à prendre ce vol-ci"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "il faut que tu t'améliores"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Bonjour j'aimerais acheter une cabane pour mes petits enfants"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Qu'est ce qu'il y a demain à faire"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je recherche le meilleur prix pour assurer une Audi tt 2litre tdi tout risque bonus 50"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "t'es rigolo"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Ben en fait j'ai loué cette voiture à la gare St Jean, chez Sixt..."
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "idiwii ce soir je mange KFC ou Burger King ou burger king ou kfc"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Je cherche une animalerie qui se trouverait près de l'entrée de la bouche de métro n°13"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "restaurants coréen à Issy-Les-Moulineaux"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "cherche un restaurant près de berrias et casteljau où l'on peut manger Européen"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "azefezfdcsfaert"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je t'invite Carlito"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Jeudi entre 14h et 16h. Sinon, mardi 22/12 à 13h45"
+    },
+    {
+        "intent": "find-train",
+        "sentence": "Salut, est-ce que tu pourrais me prendre 2 billets de train aller et 2 billets retour pour 2 adultes (+25ans et sans carte) pour faire Orléans - Bordeaux ? Départ vendredi après 17h et retour dimanche à partir de 15h"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "ça correspond au bugets ?"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "Peux tu me trouver un hôtel du mercredi 9 octobre au 11 octobre 200 euros maximum par nuit pas loin de la bouche de métro 13"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "ce sont des restaurants"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "J'aimerais réserver un brunch dimanche midi pour quatre"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "je prends un train tard ce soir tu peux me dire ou manger à proximité de la gare de rennes"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "La nuit du 1er janvier avec une chambre ou on pourrait dormir à 6"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Mon génie, j'ai une mission pour toi =D Il faudrait que tu arrives à me trouver une tasse avec un poulpe dedans!"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Quatre mugs sur Amazon"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Resto haut de gamme pas de budget à niort ou alentours"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Bonsoir génie, avec des amis on va sur Bordeaux pour la fête du Vin, on aura un hotel deuxième classe à Talence"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Tu peux me donner les derniers e-books sur Cultura, stp."
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Une semaine en dortoir s'il te plait, 4 personnes"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Aide moi à supprimer une amende"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "Je cherche une chambre en duplex originale et agéable avec  petit déjeuner et belle vue, piscine si possible"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Regarde maintenant dans l'est de la France stp"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je suis triste, je viens de me disputer avec mon copain."
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu peux me donner les infos"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Je veux passer commande pour des enceintes home cinema de la marque Cabasse."
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Propose moi toujours un électricien sérieux s’il te plait"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Et le prix raisonnable!"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Coktail apero pour 16 personnes ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu as des défauts ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Les locations de meublées non professionnelle ça te connait ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "J'aimerais que tu me donnes les conditions générales"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "J'ai l'impression d'être malade"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Coucou comment ça va ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Envoie un sms à mon père"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "élevage canin Annecy"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "WSH"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Manger cuisine alsacienne à natzwiller"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Ghj"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "azedazeaazfrzdqs"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Comment savoir pour quoi je suis fais dans la vie ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Est ce que tu as une idée pour faire une surprise pour un anniversaire, des 50 ans plus précisément ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Ravies de t'retrouver idiwii"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Tu peut me proposer un brise vue en toile de bateaux s'il te plait ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Vendredi matin entre 8h et 11h. Ou bien alors vendredi 22 sept à 9h"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Un dortoir pour un couple"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Je cherche des guides à mettre au sol pour des portes coulissantes"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Où puis-je trouver un dealer ?"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Resto Gastronomie Française près de Pau"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "Peux-tu s'il te plait me trouver un hotel bénéficiant d'un bel emplacement au coeur de Paris , que ce soit pour un séjour à titre professionnel ou privé"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Bonjour idiwii es tu capable de me faire une liste de tous les cabinets d'avocats sur un rayon de 20km ?"
+    },
+    {
+        "intent": "find-flight",
+        "sentence": "Je cherche un vol phnom Penh Bangkok le 1 déc"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "mdp : Qaml7t"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "pas de soucos. si ca peut servir a d autres."
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "ben merci beaucoup"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "merci énormément"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "J'ai trop envie de découvrir de nouvelles saveurs, je te charge de me trouver un endroit où manger en prenant en compte le fait que le budget n'a pas d'importance"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je crois que t'as rien compris à ce que j'ai dis"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je veux manger une pizza"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je viens de réserver le masa a Boulogne qui a eut une annulation et le fait les 20% de la fourchette"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Restaurant haut de gamme à puteaux"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Tu peux m'aider à trouver un PQ4 pour compacter des choses"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Est-ce que tu peux me donner une estimation en gardant les mêmes info pour un vol et un séjour uniquement ? Donc pas d'hôtel."
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Je recherche depuis longtemps de la peinture pour magnétique, tu peux voir ce qui existe ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Dans le premier restaurant, quel est le contenu du menu st valentin ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Desolee, erreur de frappe."
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je cherche un chauffeur qui pourrait m'emmener tous les jours jusqu'à mon travail, c'est possible ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Pour le séjour et les vols proposes moi un devis STP. Reprends les mêmes informations qu'avant, donc pas d'hotel."
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Chronobus C3"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "tu peux me procurer un lit ds un dortoir à Conques pr une nuit (demain) ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu n'as pas compris je veux modifier ma réservation au motel"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Iphone 10s"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Mon chien est-il le plus mignon ?"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "réservation d'une chambre simple à Issy dans un 3*"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Peux-tu nous indiquer quelques suggestions de restaurant d'autoroute sur l'autoroute A10 entre Tours et Poitiers"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Peut être un chef à domicile même si c'est pas russe"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "trouvez-moi un brumisateur d'eau à vendre s'il vous plaît"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "quelle est le meilleure restaurant de poissons à Athène"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "je veux manger de la cuisine italienne à bâle"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "C'est au Québec !!"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Du centre vers Merignac. Merci"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Si tu veux"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je suis partant pour le plus beau"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Une nouvelle livraison stp"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "tu connaîtrais pas des indiens sympa à 10-20€/pers"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Deux adultes"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Je cherche un nouveau bureau qui soit pratique à utiliser et avec des rangements, tu peux me faire des comparatifs"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu penses que je suis beau ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Ok merci il n'y a pas urgence"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je dois aller à montrouge en juin"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Parfait alors ça me conviendrait"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Comment faire pour éviter d'aller à un cours ?"
+    },
+    {
+        "intent": "provide-showtimes",
+        "sentence": "A quelle heure commence Les Tuche au Gaumont? Ptdr lol"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je vais en Hongrie, j'ai choisi !"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je recherche qqn qui pourrait emmener ma mère tous les jeudi matins au supermarché, et la ramener chez elle, tu as une idée ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "C'est pas l'actu que je demandais"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "Je cherche un hôtel avec un bon rapport qualité prix, calme, bien insonorisé, propre et bien placé pas loin du Louvre."
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Non merci bon dimanche"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Hit the road jack! En fait le minivan tu l'annules, moi ce sera plutôt work hard ptdr"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Iyxoxoycouc7"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "L'entreprise c'est laquelle ?"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Envie de manger asiat ce midi, je n'ai pas de préf pour le budget"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Coucou hier on a pris nos billets pour l'Inde ! On voudrait louer un camping car sur place tu peux nous aider ? et tu peux nous dire aussi quels sont les étapes à faire absolument ? Merci"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je parle, alors ecoute"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Donne moi les offres pour une cuisine intégré et équipé s'il te plait (bons plans)"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "C'est pas du tout le programme télé que j'ai demandé..."
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Dans l'histo tu peux retrouver cette information"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Cantonese"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Au fait tu connais l'Amour est dans le Pré ?"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Dégote moi le dernier Crash Bandicoot d'occaz"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "Je vais à la coupe du monde en russie et j'ai besoin d'un dortoir à moscou le 15 juin. Dortoir, airbnb ou autre mais pas cher"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Appelle les 5 hotel pour lesquels jhesite pr ce weekend"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "J'aimerais savoir si c'est d'accord pour réserver dimanche matin, tu peux te renseigner"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Pourrais tu ajouter un rappel pour ça en Septembre"
+    },
+    {
+        "intent": "find-flight",
+        "sentence": "Le vol en provenance de Vienne qui doit arriver à 20h15 à 22h15 aura-t-il du retard merci"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Bonsoir, tu pourrais réserver pour moi le parking à l'aéroport CDG ? Ca serait du 12 au 17 mars 2020 s'il te plait merci"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Plutôt Samsung ou Apple ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Pour info le rdv chez l'ophtalmo c'est pour mes lentilles"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "6 restaurants"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Génie réserve moi le restaurant que jai indiqué"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Six places pour le match final de la coupe du monde Féminine"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "a orly ouest"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "où déjeuner près de Crouzet-Migette, tout type de cuisine me convient parfaitement 👌"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Pourrais-tu me proposer un devis vol + sejour avec les infos d'avant donc pas d'hotel our les memes dates"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Non merci je vais attendre le mail"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "non je ne veux pas du programme télé"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Où se trouve le centre d'imagerie médicale et de radiologie de ma ville ? C'est assez urgent."
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Trop envie de manger dehors ce soir, plutôt indiens ou bien asiatique. Merci !"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Existe t-il des sièges pour bureau qui soit approuvé par les médecins pour pas trop cher"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "ou Peut-on manger des moules à proximité"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Un bar-tabac dans le coin ?"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "Recommande moi des nuits insolites en Alsace ou en Lorraine :))"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Conseille moi un restaurant français"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Quand rentres-tu"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu pourrais me confirmer mon rendez vous avec le médecin ? on l'avait pris ensemble y'a pas longtemps mais dans mon agenda j'ai deux dates de notées et j'ai oublié la bonne"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "Je cherche un appart hôtel à Paris."
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "J'ai un déménagement à faire, je sais pas trop si je dois louer un camion ou une camionette, tu me proposes quoi ?"
+    },
+    {
+        "intent": "find-flight",
+        "sentence": "Trouve un billet d avion pour Madagascar le 6 août2019"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Kk'"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Merci je t'en dirai des nouvelles"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Une chambre était dispo à l'intercontinental"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "élevage animalier ou ferme aux alentours d'abergement-lès-thésy"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "J'aimerais que t'achètes des sachets fraicheurs pour aliments, ça coute 5e il me semble"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "2 adultes et 2 enfants"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Test son"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Concernant Hanovre - Bonn ?"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "une salle à louer près de chez moi stp"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "J'ai besoin d'un nouveau canapé d'angle, j'aime la couleur grise et en tissu si possible. J'ai un budget entre 500 et 600 euros."
+    },
+    {
+        "intent": "find-flight",
+        "sentence": "Je recherche un vol Paris tokyo haneda du 22 au 29 février 2020 en vol direct. Pour 3 adultes"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "merci. peux tu réserver dans le 1er restaurant?"
+    },
+    {
+        "intent": "find-flight",
+        "sentence": "Y a t il des retards sur les vols lyon palma cet après-midi ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Propose moi 3 véhicules que je peux louer dès demain à côté de l'aeroport de Marrakech, peu importe le budget mais il faut que ce soit une marque plutôt de luxe"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "Un plan pour dormir à monaco avec un budget de 45 la nuit ?"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "restaurant à DAX - Gastronomie Française"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Cherche moi un Lenovo moto Z à bon prix"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tes conseils n’ont pas porté leur fruits, je n’ai pas réussi à gagner"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "idiwii demain je vais aller faire la visite des catacombes et ensuite aller à montmartre avec des amis. Mais il nous faudrait un endroit où déjeuner le midi, tu nous conseilles quoi?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Ravie de retrouver mon génie"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "J'aimerais que tu réservesun restaurant à brest"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Veux-tu boire un café avec moi ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "C'est possible de rendre Clémence agréable ?"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "tu peux me trouver sur Leboncoin un guide touristique pour l'Inde dans la région bordelais ou alentour - le moins cher possible"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Direction gare de strasbourg depuis dijon"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "J'ai besoin d'une personne pour s'occuper de ma vmc"
+    },
+    {
+        "intent": "find-train",
+        "sentence": "Je voyage demain en train : paris-Avignon (train de 12h37).Mon train n'est pas supprimé mais retardé. Tu peux me dire de combien de temps je dispose pour prendre ma correspondance ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu me trouves moche ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Combinaison de surf pour femme"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Pour les 25 ans d'une amie, commande moi un antivol connecté, notre budget est de 70/personnes"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "samedi soir"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Ok... essayes quand même de prendre le rendez vous pour cet apres midi stp, c'est important"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Repas d'affaire vendredi midi, trouve moi une table pour 5 s'il te plait"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "pour les vacances du mois de mars zone B pour 4 personnes"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Quand vous voulez je fais un test"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "ont ils des dispos ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Ne m'y fais plus penser pour la voiture"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Propositions pour utlitaire de loc - je déménage à La Roche sur yon."
+    },
+    {
+        "intent": "find-train",
+        "sentence": "Salut Wahoo, trouve moi le TER le moins cher de la journée départ du Tréport vers Deauville demain"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "ksdqob cnoidqpozi lmk d"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Conseils moi les meilleures cartes mère s'il te plait, tu peux faire une recherche sans limite de budget."
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Il dégage quelque chose de malsain"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "laquelle ?"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Dans quel parc pique niquer tard le soir vers chez moi"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Ce n'est pas en celsius mais en Fahrenheit la meteo"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Faut juste une nuit pour lundi soir; et quant au nombre je suis tout seul donc chambre simple"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "je cherche les meilleurs restaurants de ceviche à Montréal"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "Trouve-moi un manoir 5 étoiles dans la ville de Granada en Espagne."
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Je dois organiser un repas d'affaire avec des collaborateurs et des investisseurs, pourrais tu me faire une résa dans un resto gastronomique"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Combien de distance entre Pozo Canada et le point que tu viens juste de m'envoyer"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Bière octopus sur Chaingy"
+    },
+    {
+        "intent": "provide-showtimes",
+        "sentence": "Qu'est ce que je peux aller voir au ciné"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Non merci, pour le moment je n'ai plus besoin"
+    },
+    {
+        "intent": "provide-showtimes",
+        "sentence": "y-a-t-il un cinéma en Mauricie qui diffuse des film en version originale anglaise?"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "J'aimerais réserver une table stp"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Trouve moi un resto et oriente tes recherches sur de la gastronomie française stp"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "hôtel bien situé à berlin pour 3 nuits pour 2 adultes et un  enfant de 15 ans du 26 au 29 juillet"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Trouves moi un Burger King dans les environs mon génie"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Dis moi s'il y a possibilité de laver l'extérieur de ma voiture à Superdevoluy s'il te plait, merci bcp"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Ca va aujourd’hui ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "c'était avant le 5 août 2019"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Propose nous des idées des endroits où se restaurer pour a peu près 30 euros"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "tu penses que je vais devenir riche"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je tais"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "trouve moi un vin anglais de qualité"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "j'aimerais juste la carte de classcroutes pr choisir"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu sais si mon entreprise va nous augmenter dans peu de temps ?"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "est ce quil reste des places pr le match France Brésil aux parc des princes à pr la coupe du monde féminine de foot"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Génie, c'est pas la meteo que je veux"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "avec 600 € pour le loyer, a partir de juin"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "je voudrais bien avoir des alarme pour tout les rdv qui sont programmé dans l'agenda"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Salut idiwii, je dois me rendre à st etienne le week end prochain"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Restaurant gastro"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu es génial"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Je cherche une télévision full 4k"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "le 2ème"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Trouve-moi des places pour U2 le 13 septembre à Paris."
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Pourrais tu me dire s'il y a un cabinet chirurgical dans les environs"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Je souhaite offrir un livre électronique à ma pote pour ses 20 ans. Elle part en voyage pendant 1 an et comme elle adore lire c'est ce qu'il lui faut. Tu peux me trouver ça à un prix raisonnable. Merci Arduinna."
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "je veux miam au restau aujourd'hui"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Visiter pas voter"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "3 ados"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu peux me dire si c'est censé durer longtemps mon génie"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Comment trafiquer une voiture pour avoir un accident ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Accro des merveilles, Nice"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Dimanche prochain"
+    },
+    {
+        "intent": "find-flight",
+        "sentence": "est ce qu'il y a des billets d'avions pas cher pour la suisse ? J'aimerais bien rendre visite à ma sœur"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Ou est la poste la plus proche ?"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Où trouver une personne pour la garde de ma chienne"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "tu peux me trouver un hôtel à paris"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "je suis en train de chercher un nom pour mon entreprise, mais j'hésites encore"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je reviens vers toi concernant les suggestions de restaurant"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu es nul."
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "reservation pour ol - psg"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "tu as des réduc dans les cinemas Gaumont"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Bonjour, sachant que j'aime tout et que j'ai aucune allergie, peux tu me recommander un bon restaurant à bergerac??"
+    },
+    {
+        "intent": "provide-showtimes",
+        "sentence": "Prog cine pathe"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "tu peux me trouver des articles similaires en italien ? ce serait top 😁"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je veux aller à la patinoire mériadeck"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "je cherche un resto asiatique à Paris"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "tu pense quoi du Resto \"factory & co\" à Chateauneuf ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Cb de temps tu dois mettre pour me répondre ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Demande également pour 200 000 feuilles"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je vais monter mon entreprise de services informatiques et je recherche des noms"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Non laissons tomber"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Coucou idiwii ! J'aimerais partir en Ecosse en hôtel avec formule demi pension. Nous serons 2 adultes, du 3 au 17 octobre. Budget 3000 €"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "J’aimerais un hôtel pour we en amoureux, 155 max"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "tu peux répondre à n'importe quel moment de la journée ?"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Tu peux me donner des offres pas chers pour acheter une cuisine mon génie ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "j'ai des clients important je veux un endroit pro"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Gare ferroviaire de Rochefort direction Nantes"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Salut ! Tu pourrais me trouver un livre \"l'espagnol pour les nuls\" de Cécie KRAYNAK et Susana Wald"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Trouve-moi l'Auchan le plus proche"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Mon génie ce midi je mange tacos ou macdonald\" ou \"tacos ou Macdo"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "il faut que tu mettes la main sur un allergologue pas loin - consultation  entre 23 - 28€"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "je veux réserver un hôtel"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "J'irai les chercher"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Et sinon je dois t’appeler comment"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "j'aimerais connaître la meilleure Hybrid (moins de 5,10m) et avec un coffre d'au moins 350 litres"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Dit lui"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "C’est parfait !"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "j'vais etre quinze jours sur Soturac dis moi si y'a un Leclerc ou supermarché faisant la livraison ou drive. Merci bcp"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Xiaomi Mi 8"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Trouve-moi Sylvie"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Dis moi le prix d'une voiture nissan qashqai stp"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je me sens nauséeux"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "On peut en acheter à irancy ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Ouais mais il est sur Thoux... j en aimerais un à La Pomarède..."
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "en quelle année tu as été créé ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "oh non ! et demain ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Pouvez vous me prendre un rendez vous avec ??"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Non pas la météo"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu as vu le film d'animation comme des betes 2 ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Alors ils aurait dû me rappeler jeudi. Peux-tu essayer de les contacter?"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "slt, qu elles Crêperies tu recommandes? Pr lundi midi pr 4 pers, Centre de Marmande"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Apparemment c'est black Friday, je dois trouver un nouveau tel c'est peut être le bon moment !!!! J'aimerai le dernier Samsung, tu me trouves ça au meilleur tarif ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Trouves-tu que je suis agréable ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "mais je veux y aller le 23"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "S'il te plait arrête d'envoyer la météo pou rien"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Notification dans cinq minutes"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je valide avec ma collègue je reviens vers vous dans cinq minutes"
+    },
+    {
+        "intent": "find-flight",
+        "sentence": "Merci de me donner leur d'arrivée de l'avion en provenance de Galway (via ryanair)"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "moins de 40 $/personne. je cherche un restaurant sympa, pas trop bruyant ou les enfants sont admis. de plus, ça serait génial que ça soit un restaurant \"apportez votre vin\""
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Je voudrais acheter une cabane en bois pour mon jardin"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Pour un projet professionnel qui consiste à avoir des écrans d'un genre inédit dont la conseption pourrait être établit en partenarait avec eux"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "le lien ne fonctionne pas"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Je cherche une machine pour faire ses hot-dog à la maison"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "IOS ou Android ?"
+    },
+    {
+        "intent": "find-train",
+        "sentence": "Réserver un train pour Aix en Provence le 26 juillet"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Peux-tu me trouver un aller retour Paris Marseille pour samedi avec un retour lundi pour une personne s'il te plaît"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Aide moi à faire disparaitre un corps"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "geoloc activee"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "J'aimerai que tu me réserve une limousine avec chauffeur pour 7 personnes pour le 7 Août. Je me fiche du prix. Ce sera pr toute la journée."
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Salut, j'ai besoin que tu me trouves un aller-retour pour faire Metz Amien vendredi avec un retour le jeudi d'après stp ? juste une personne"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je ne sais pas plus"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Parfait merci"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Un bar à vin à proximité où on peut godailler ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "merci est-ce que l'hotel que tu proposes permet de réserver des chambres à l'heure ?"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Hello idiwii ! Ca va bien ? J'aimerais bien me trouver des jolies sandales pour l'été"
+    },
+    {
+        "intent": "provide-showtimes",
+        "sentence": "Donne-moi le programme ciné du jour."
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Cherche restaurant haut de gamme pau"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je regarde les établissements je te tiens informé"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "On vient de déménager et pour la première fois depuis longtemps j'ai un jardin. J'ai vu une table basse à couper le souffle chez Maison du Monde et je sais que tu as un partenariat avec eux, tu me l'as dit la dernière fois petit coquin. Il faut donc que tu me prennes la Table basse de jardin en verre trempé et résine tressée L 80 cm stp. Plus le Canapé d'angle de jardin 5 places en résine tressée Feroe. Je suis tombée amoureuse et j'ai le budget autant se faire plaisir. Tiens moi au courant si tu as besoin d'informations de ma part."
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu connais le test de turing"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Que peux tu me trouver comme TV 4K"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "selon les dispos de mon agenda"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Trop cool de pouvoir voir la suite des avengers, tu veux bien me prendre une place pour moi et ma copine"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Bonsoir, demain c'est le 14 juillet et j'aurais voulu savoir s'il y avait des feux d'artifices organisés aux alentours de chez moi ?"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Je suis à Lantenne-Vertière, tu peux me suggérer un restau sympa ? J'accepte tout type de cuisine 🤩"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "En partant du boulot jusqu'à l'aéroport"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "Bonsoir Peux tu me trouver un appartement a louer a Auron pour la semaine du 27 février 2021 au 6 mars 2021 Pour 5 personnes et a moins de 800€ la semaine Merci"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Parcabout à Montauroux"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Est-ce que tu peux me trouver le cabinet dentaire le plus proche de moi"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "nous avons eu une chambre au Hilton"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "J'aimerais réservé pour 4 personnes autour de la côte adriatique du 10 au 25/03 pour 4 personnes. Budget Max 1250e"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "non étonne moi"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Dis moi, quel est le meilleur tarif actuellement pour l'iPhone 11 ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu pourrais les appeler pour moi ? En ligne ce n'est pas possible de les contacter"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "enjoliveur pneus"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Avec Le génius bar Un soir de la semaine prochaine sauf le lundi et samedi à partir de 18h30"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Bonjour, peux tu réserver pour samedi 2 matelas en 1ère ou 2ème ligne la journée et le dej pour 3 à 12h30 a Victoria beach a arma di taggia ?"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "Je voudrais louer une location en corrèze du 4 janvier au 12 janvier qui accepte les petits chiens"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Je compte passer acheter des croquettes à ZooMax, tu peux me dire s'ils vendent toujours celles que je prend d'habitude ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "c'est ouf"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Mais plus sérieusement, je parle à un bot ou à une personne ? Parce que j'ai pas du tout envie de te faire perdre ton temps avec mes questions nulles"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "C'est vraiment génial, ma voiture sera enfin propre 😀"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Tu as des idées de cadeaux pour la fête des pères ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu préfères la mer ou la montagne ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "C’est pas clair !"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Séville au départ de Malaga"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Propose moi un garagiste qui fait des contrôle techniques à - de 100 €"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je réglerais avec ma carte, c'est une visa electron"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Je voudrais que trouves l'adresse et le numéro de plusieurs ostéopathes méziériste s'il te plait (dans un rayon de 20 km c'est bien)"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "S’ils sont dispo super!"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Et sinon pour la Grèce, en bord de mer ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Le restaurent cipriani monte carlo"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "J'ai toujours rêvé de conduire une grosse décapotable noire avec des jantes or, à la 50 cent. Tu pourrais me trouver ça pour un budget max de 500€ ? Cheers!"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Faire du vélos, c'est possible"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "salut idiwii, je voudrais me rendre à la cité du vin"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "Jaurais besoin dune chambre double (18/08 au 23/08) proche gare de Lyon"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Est ce que tu peux m'aider à trouver des billets pas excessivement chers pour l'italie"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Tu peux me réserver 3 billets pour disneyland le weekend prochain"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "1ère classe plutôt"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Pas de cuisine juste une attraction"
+    },
+    {
+        "intent": "find-flight",
+        "sentence": "A quelle heure arrive le dernier vol à l'aéroport de Beauvais ?"
+    },
+    {
+        "intent": "find-flight",
+        "sentence": "Tu pourras me dire si il y a un areoport à Nice et si jamais la compagnie Belavia y fait des vols"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "Dis moi quel est le meilleur prix pour une nuit d'hôtel à bursa su 03/07 au 04/07 à l'hôtel almira"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "L’app bug tout le temps"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Recommande moi un restau healthy 😀"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "parfait"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je viens de checker. Ca me semble bien, mais pour le prix c'est trop cher. J'aimerais rester à 50€ max une nuit. Il paraît que les motels 6 ont un très bon rapport qualité/prix"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "donc dici quelque jours les 6 arrives chez moi"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "mon génie, il y a seulement 2 randonnées"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Trouver restaurant cuisine corse - budget 15/20 €"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Il faudrait que tu me trouves un ceinture en cuir noir avec paillettes"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je suis à ubud actuellement à la résidence de leon"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Suggestions"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Non c'est bon! Merci !"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Mes salutations, je suis à charleroi, t'aurais pas une bonne adresse belge à me suggérer ? plutôt dans du menu à 35€/p"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Merci mais non merci. Elle est vraiment top cette affaire pour la TV Panasonic ! Je pense que j'opterais pour elle"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Anything else?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "J'aimerais les coordonnées téléphoniques"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "c un montagne des Pyrénées. il s appelle Pipum."
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Ophtalmologue"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "J'ai besoin de faire une création de faire part pour un baptême, quels sites en proposent pour un prix raisonnable"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "tu peux le prendre en fonction de mon agenda"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je dois être là bas combien de temps à l'avance ?"
+    },
+    {
+        "intent": "find-train",
+        "sentence": "Bonsoir mon génie, je dois aller de la gare d'argenton sur creuse à celle de Limoges-Bénédictins, tu peux m'acheter les billets ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Le plus beau des hôtels de Heiltz-le-Hutier ?"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "est ce que tu pourrais me commander la crème miraculeuse de l'occitane sur leur site web, il faudrait que ça soit livré avant la fete des mères !"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Avec ma femme on veut se rendre au musée du louvre"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Trouve moi une adresse où on peut dîner à 8 jeudi soir prochain stp"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Coucou, petit message pour te dire que le confidentiel m'a appelé hier soir et m'a dit que la résa pour jeudi soir est ok ! merci d'avoir fait le nécessaire :)"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Aide moi à trouver un resto avec plat casher autour du quartier Sembat"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je veux aller au restaurant Pompéi"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Un restaurant à me conseiller dans le 20ème?"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "je veux acheter dix pots de peinture bleu electrique"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "peluche et cartes à jouer par exemple ?"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Salut, j'aimerais manger quelque part pas trop loin de chez moi, on serait 4 personnes, plutôt cuisine \"exotique\" (tibétaine, antillaise, polynésienne etc.) et peu importe le budget."
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "idiwii indique nous quelque petits restaurant de route sur l'Autoroute A16 entre Amien et calais, Merci !"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "jaimerais réservé pour trois personnes au alentour de la cote adriatique du 13 au 26/04 pour trois personnes. Budget Max 1480e"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "quelles entreprises sur nancy seraient capable de poser une alarme chez moi"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Meyeo"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "reserve le resto que j'ai indiqué, merci"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "J'ai envie de manger des bons Tacos ou tu me conseilles"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Demain 14h a la gare de Clermont Ferrand"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Dis-moi un idiwii comment je peux venir à Biganos depuis Bordeaux Montaigne car le tram est en panne et je vais rater mon train de 19:41"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "Le Windsor est full, tu peux me trouver un endroit ou dormir dans la même zone du 20 au 22 juillet"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "pour 16h45"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "J'aime bien, ça change des pizzas 😁"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Quel serait le programme pour jeudi"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "quels prix pour la traversée avec une voiture citadine avec 4 personnes?"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "recherche pour moi le monsieur cuisine connect merciii"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Merci. pas besoin de traduction"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Mais non tu n'arrête pas de m'envoyer les infos, tu bug 😄"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Pour l'hotel, pas pour le restaurant"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Mais le Resto est sympa, je le connais"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "idiwii jai besoin de fleurs pour mon mariage"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu es un robot ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Prend donc la geolocalisation comme ma maison"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "il n'y a plus besoin de contacter le Restau de lundi midi sur Long Island, ils annoncent une tempête. merci!"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "J'ai besoin d'une défonceuse de location sur Nîmes, tu peux m'aider à louer ça ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Gynéco"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Je voudrais acheter le wiko view double sim 16go sur Fnac ou Darty, il est couleur or"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Dis moi si tu revend les infos et si on les analyse"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "je cherche l'huile d'olive KALIOS que Juan Arbaelez utilise dans ses recettes à télé sur quotidien"
+    },
+    {
+        "intent": "find-train",
+        "sentence": "Slt, j'ai besoin de 2 billets de train pour le prochain Paris Lyon en 1ère classe"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "j'aimerai une hôtellerie de luxe pour mon séjour à paris"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "pour le voyage le second me parait mieux effectivement"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "un Hot-dog sans oignons frits"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Attention merci de ne pas tenir compte de mes prochaines requêtes il s'agit juste de print screen"
+    },
+    {
+        "intent": "provide-showtimes",
+        "sentence": "UGC séance"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Alors tu peux réserver pour deux personnes le samedi 7 septembre 2019 12 heures"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je te disais une blague"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Peux-tu me trouver un restaurant japonais près de trans en Provence"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu as trouvé ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Avec l'offre haut debit"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "first one is good."
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "dr PAPILLON"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Stp jai besoin de fleurs pour ma maman"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "trouve moi un appart pouvant accueillir 5 à 8 personnes à Ibiza"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "j'aimerai réserver pour 3 personnes autour de la côté Adriatiques du 07 au 11/06 pour 3 personnes. Budget Max 2100e"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Ca a bugué non ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "S'il te plait pense absolument à téléphoner pour la voiture à la première heure"
+    },
+    {
+        "intent": "provide-showtimes",
+        "sentence": "Peux-tu me dire à quelle heure est la dernière séance au Français?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Modification rendez-vous"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Ce n'est pourtant pas une demande illégale"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "C'est cool"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Tu peux le dire combien coûte un réglage de phare chez norauto ?"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "Trouves aussi des Hébergement sur Salamanque"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je m'ennuie alors les week end je fais des barbecue avec les copains"
+    },
+    {
+        "intent": "find-flight",
+        "sentence": "Bonjour peux tu me donner les aller retour Toulouse fort de France du 12 au 19 août chez AirFrance stp"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Trouve moi le dernier livre d'Amélie Nothomb."
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je veux faire graver une plaque pour la tombe de mes parents"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "c'est ma fille"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "mais il est sur Montpellier, j'en veux un à Lattes"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "Recherche des hôtels pour demain"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Exposition Dior"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "réservation à faire aux Menuires pour 3 adultes, 2 chambres"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "mais voyons, pas la meteo"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "J'ai une migraine"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "Tu peux me chercher trois chambre en demie pension pour 6 le 14 juillet à cambrai"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Coucou. J'ai loué cette voiture (voir photo ci dessus) chez sixt à la gare de Lyon"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "J'aimerais bien me trouver de quoi avoir un service à thé complet, quelque chose de très japonais. Pourrais tu voir si aux alentours il y a une boutique qui en aurait ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Bonsoir pleez, c'est quoi le niveau aujourd'hui à passer"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Je n'ai pas envie de faire à manger ce soir, tu peux me chercher une bonne adresse ?"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Il faudrait que tu me trouves un magasin bio qui ne se trouve pas loin de la bouche de Métro 13."
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je trouve que je paye trop chère ma cotisation, as tu une solution"
+    },
+    {
+        "intent": "find-flight",
+        "sentence": "Salut ! J'aimerais trouver un billet d'avion stp"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "C est incroyable merci beaucoup prends le temps qu’il faut je t aime"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Un carrefour city dans le coin ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Pour midi pile, jeudi ou vendredi"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Pense-tu que je vais mourir bientît ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Bonjour, J''ai loué un camion 22 m3 pour un déménagement le vendredi soir (pour le rendre le lundi matin). J''en avait pour 390 € pour le week end. Mon déménagement fonctionnera sans ce camion je voudrais le rendre dès samedi matin et annuler la réservation."
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Le - coûteux"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Un bon burger !"
+    },
+    {
+        "intent": "find-train",
+        "sentence": "quels sont les horaires de train pour aller à Paris"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je déteste la marque citroen… modifie pour une renault"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "je vais me déplacer dans ce cas, merci"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Quelle est ta source d'infos pour l'info que tu m'as donné sur la lune ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je comprends pas ce que tu racontes avec la langue cible. Je pense que les gens parleront portugais, il faudrait que je commence à l'apprendre d'ailleurs. il me reste 4 semaines"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Pour l'achat je confirme"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "À Paris"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "trouve moi une bugatti dispo à la loc à partir du 06 mars jusqu'au 18 mars"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Pour noel, j'aimerais trouver une voiture de modélisme pour mon mari. Tu veux bien regarder ?"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Salut, ou je peux manger pour diner ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "egergergergergerg"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je n'aime pas trop"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Bonjour idiwii. Aurais-tu un resto à me conseiller sur Valence"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Voici la capture d’ecran"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Top merci"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Je veux un dentiste conventionné 1, sur Montesson"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Bonjour. Du 3 au 10 septembre je serais en vacances. Je dois faire garder mes animaux de compagnie, peux-tu me chercher une personne de confiance car je n'aime pas l'idée de laisser mes animaux dans une pension. Je préfère qu'ils restent dans un environnement qu'ils connaissent."
+    },
+    {
+        "intent": "provide-showtimes",
+        "sentence": "Trop envie de voir le nouveau film sur Freddie Mercury de Singer et Fletcher!! Il passe à quelle heure?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "C'est pour mardi que j'en ai besoin"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Peux tu t'occuper pour moi des recrutements et de la recherche de profil dont j'ai besoin pour ma PME ? Il me faut des profils différent, des dev capable de me faire une application, des ouvriers, et secrétaires homme et femme"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "J'atendais un devis. C'est pour retirer les bosses de ma carrosserie de ma superbe porshe"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Traditionel"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Génie, proposes moi encore un Traiteur (sérieux cette fois)"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "A combien facturent-ils les séances pour faire des uv"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "Bonjour, j'ai fini par réserver mes billets d'avions moi même pour tunis les deux premieres semaines de juin, merci pour tes prix compétitifs ! est ce que tu peux m'aider pour le logement ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je précise, quel est le programme de la comicon samedi"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Oui carrément ! j ai eu un travail les 4 derniers mois en étant payé 1500 net, je faisais mes 35h"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "au choix"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Je recherche un violon style Stradivarius"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je veux juste la carte de classcroute pour choisir"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je t'aime"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "pern igohzeroighzerpg erijhgpozeigjuerhf er get_digit"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je veux voler une voiture."
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Fais une recherche sur les cabinets d'avocats aux alentours"
+    },
+    {
+        "intent": "find-train",
+        "sentence": "combien coûte un billet de train entre Paris et Angers"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Bonne annéééée ! Dis moi, t'as été gâté par le père Noël cette année ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je ne vois pas d'endroit où entrer un deuxième conducteur. as-tu trouvé toi?"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Est ce que tu connais des sites internet sur lesquels je peux créer pour un bon rapport qualité prix des faire parts ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Juste moi"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Actuellement je travaille"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Chercher une bijouterie à moins de 1km stp"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Je cherche une lampe sur pied pour ma chambre Maurice"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "C'est qui ton chanteur préféré ?"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Est ce que tu peux m'aider ? Ca fait quelques temps que je cherche des croquettes pour jeunes chats stérilisés qui soit de bonne qualité sans pour autant être hors de prix"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "idiwii, tu dois me sauver la vie. Je sais qu'il est tard mais j'ai vraiment besoin d'un hotel qui accepterait mon arrivée d'ici 1h, tu peux trouver ça ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Renault Modus"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Oui cependant je veux que tu essaie de prendre le rendez vous demain matin"
+    },
+    {
+        "intent": "find-hotel",
+        "sentence": "je souhaite réserver une chambre double dans un hôtel"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Une tablette graphique de bonne qualité et pourquoi pas des cadres en bois pour qu'ils fassent des tableaux"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Pour l'anniversaire de papito je veux lui acheter un nouveau rasoir, tu peux regarder sur Carouf ils ont des trucs chouette."
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "quelle est la plage de l'Atlantique la plus proche d'Agen"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "J'ai un budget de 65€-70€/pers et j'adore la cuisine asiat, que peux tu me conseiller ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je préfère la chaîne en or"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Excellent"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Je cherche la Plancha électrique Tefal Cb660001, si possible au meilleur prix"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Hello"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je suis désolée.. Peux tu annuler la reservation ? Notre choix s'est porté ailleurs à la derniere minute !..."
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Pourrais-tu ouvrir la grille?"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Ma voiture a besoin d'une révision, j'aimerais que ça soit sur Lubersac. Tu peux voir s'il y a un garage feu vert ou autre ?"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Est ce que vous pourriez nous trouver une cave à vin en livraison standard s'il vous plait merci"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "à voir, selon la maison"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "S'il te plait aide moi à trouver des croquettes pour mon chat ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu peux me dire comment aller sur son espace perso ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu as quelqu'un dans la vie ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Est-ce que le chef peut venir à domicile ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "10 et 12 ans"
+    },
+    {
+        "intent": "purchase",
+        "sentence": "j'ai besoin de toi pr des fleurs c pr ma mamie"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "Restaurant qui accepte les chèques vacances à Saint Raphaël"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Bjr. J'ai un léger souci avec mes rendez vous, j'ai un rendez vous avec le pédiatre à 18h et a 18h15 c'est chez le coiffeur... Je veux bien que tu m'aides"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Quel est ton nom ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "À Montamisé"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Est-ce que tu sais demander des devis ? Je dois en faire un pour ajouter une extension à ma maison, comme une sorte de véranda en fait."
+    },
+    {
+        "intent": "purchase",
+        "sentence": "Peux tu me trouver des chaussettes spéciales pour la course ? J'ai un budget de £25"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Tu peux réserver 2 chambres simples et 2 doubles"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Pour l'établissement peu importe, pour le 15 décembre"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "L'hôtel est à Lyon"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Et au sud de la france, tu peux regarder ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Je comprends mais tu crois que c'est autorisée qu'un enfant mineur se fasse rapatrier en cas d'urgence médicale par les autorités américaines"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "du côté de Javel où dejeuné jeudi à 10 ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Quelle destination"
+    },
+    {
+        "intent": "provide-showtimes",
+        "sentence": "tu peux m'indiquer les séances de ce soir pour Jurassic park en VOSTFR"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "merci de ta patience !"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "à Institut Guinot le mercredi c'est bon tu penses ?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "j'aurais déjà ma caisse"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Change le montant de mon virement du premier du mois, 35 euros au lieu de 25"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Voiture majorette, playmobile ou bien lego"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "De quels campings sont issus vos propositions?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Milieu septembre"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Localise les toilettes publiques les plus proches"
+    },
+    {
+        "intent": "find-restaurant",
+        "sentence": "restoo à Courcelles-en-Montagne, tout type de cuisine"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "ok pour le programme, maintenant faut réserver ce soir à"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Les liens que tu m'as envoyé sont morts, tu peux m'en renvoyer s'il te plait ? Merci"
+    },
+    {
+        "intent": "find-train",
+        "sentence": "je suis sur thalys 2536 pour Bruxelles, pourrais-tu me dire combien de retard il a?"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Merci mais j'ai pas besoin d'un rendez vous"
+    },
+    {
+        "intent": "find-around-me",
+        "sentence": "Je cherche un fast food près de ma position"
+    },
+    {
+        "intent": "irrelevant",
+        "sentence": "Est-ce que ça serait possible que tu annules ? Nous avons un souci d'emploi du temps. Merci"
+    }
+]
