@@ -13,22 +13,13 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [3.5, 3.6, 3.7, 3.8]
+        python-version: [3.6, 3.8]
     steps:
       - uses: actions/checkout@v2
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v2
       - name: Install dependencies
         run: |
-          sudo apt-get update
-          sudo apt-get -y install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
-          curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-          sudo apt-key fingerprint 0EBFCD88
-          sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
-          sudo apt-get update
-          sudo apt-get -y install docker-ce docker-ce-cli containerd.io
-          sudo docker pull wiidiiremi/projet_industrialisation_ia_3a
-
           python -m pip install --upgrade pip
           pip install flake8 pytest
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
@@ -40,6 +31,4 @@ jobs:
           flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
       # Runs a single command using the runners shell
       - name: Test with pytest
-        run: |
-          sudo docker run -d -p 8080:8080 wiidiiremi/projet_industrialisation_ia_3a 
-          python -m pytest
+        run: python -m pytest

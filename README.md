@@ -1,3 +1,5 @@
+![main tests status](https://github.com/Theomat/manpac/workflows/Tests/badge.svg?branch=main)
+
 # Projet Ingiénérie Logicielle 2020
 
 
