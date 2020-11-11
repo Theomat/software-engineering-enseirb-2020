@@ -11,3 +11,15 @@ With equals contributions:
   - Dylan Hertay
   - Théo Matricon
   - Julien Mazué
+
+
+### Commands
+
+#### Base project
+
+- Pull the docker image :
+
+  ```sudo docker pull wiidiiremi/projet_industrialisation_ia_3a```
+- Run the docker image on port 8080 :
+
+  ```sudo docker run -p 8080:8080 wiidiiremi/projet_industrialisation_ia_3a```
