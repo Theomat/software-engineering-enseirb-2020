@@ -1,3 +1,5 @@
+![main tests status](https://github.com/Theomat/software-engineering-enseirb-2020/workflows/Tests/badge.svg)
+
 # Projet Ingiénérie Logicielle 2020
 
 

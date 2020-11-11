@@ -7,9 +7,12 @@ name: Tests
 on:
   push:
     branches:
-      - master
+      - main
       - dev
-      - setup-actions
+  pull_request:
+    branches:
+      - main
+      - dev
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -18,23 +21,13 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [3.5, 3.6, 3.7, 3.8]
+        python-version: [3.6, 3.8]
     steps:
       - uses: actions/checkout@v2
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v2
       - name: Install dependencies
         run: |
-          sudo apt-get update
-          sudo apt-get -y install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
-          curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-          sudo apt-key fingerprint 0EBFCD88
-          sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
-          sudo apt-get update
-          sudo apt-get -y install docker-ce docker-ce-cli containerd.io
-          sudo docker pull wiidiiremi/projet_industrialisation_ia_3a
-          sudo docker run -d -p 8080:8080 wiidiiremi/projet_industrialisation_ia_3a 
-
           python -m pip install --upgrade pip
           pip install flake8 pytest
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
