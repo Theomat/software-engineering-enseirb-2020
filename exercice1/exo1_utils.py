@@ -71,7 +71,7 @@ def score(raw_data: dict) -> dict:
     y_pred = [get_most_probable_intent(message['sentence']) for message in raw_data]
     labels = get_all_intents()
     return {
-        'report': classification_report(y_true, y_pred),
+        'report': classification_report(y_true, y_pred, zero_division=0),
         'cm': confusion_matrix(y_true, y_pred, labels=labels)
     }
 
