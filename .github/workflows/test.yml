@@ -28,7 +28,6 @@ jobs:
           sudo apt-get update
           sudo apt-get -y install docker-ce docker-ce-cli containerd.io
           sudo docker pull wiidiiremi/projet_industrialisation_ia_3a
-          sudo docker run -d -p 8080:8080 wiidiiremi/projet_industrialisation_ia_3a 
 
           python -m pip install --upgrade pip
           pip install flake8 pytest
@@ -41,4 +40,6 @@ jobs:
           flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
       # Runs a single command using the runners shell
       - name: Test with pytest
-        run: python -m pytest
+        run: |
+          sudo docker run -d -p 8080:8080 wiidiiremi/projet_industrialisation_ia_3a 
+          python -m pytest
