@@ -1,3 +1,5 @@
+sudo docker run -d -p 8080:8080 wiidiiremi/projet_industrialisation_ia_3a
+
 res=$(curl -o /dev/null --silent --head --write-out '%{http_code}\n'  http://localhost:8080/api/intent?sentence=trouve%20des%20toilette ])
 max_attempts=50
 attempts=1
