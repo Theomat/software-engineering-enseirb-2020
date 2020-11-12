@@ -57,7 +57,8 @@ def test_score():
     output = score(test_dataset, ENDPOINT)
     assert isinstance(output['report'], str)
     cm = output['cm']
-    assert cm.shape == (8, 8)
+    size = len(test_sentences.keys())
+    assert cm.shape == (size, size)
 
 
 def test_limit_intent():
