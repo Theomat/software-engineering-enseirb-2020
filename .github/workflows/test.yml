@@ -28,6 +28,15 @@ jobs:
         uses: actions/setup-python@v2
       - name: Install dependencies
         run: |
+          sudo apt-get update
+          sudo apt-get -y install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
+          curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+          sudo apt-key fingerprint 0EBFCD88
+          sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+          sudo apt-get update
+          sudo apt-get -y install docker-ce docker-ce-cli containerd.io
+          sudo docker pull wiidiiremi/projet_industrialisation_ia_3a
+
           python -m pip install --upgrade pip
           pip install flake8 pytest
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
@@ -37,4 +46,26 @@ jobs:
           flake8 . --count --max-line-length=127 --statistics
       # Runs a single command using the runners shell
       - name: Test with pytest
-        run: python -m pytest
+        run: |
+          sudo docker run -d -p 8080:8080 wiidiiremi/projet_industrialisation_ia_3a
+
+          res=$(curl -o /dev/null --silent --head --write-out '%{http_code}\n'  http://localhost:8080/api/intent?sentence=trouve%20des%20toilette ])
+          max_attempts=50
+          attempts=1
+
+          while [ $res -ne 200 ] && [ $attempts -le $max_attempts ]
+          do
+              echo "Failed. Attempt: $attempts/$max_attempts"
+              sleep 5
+              res=$(curl -o /dev/null --silent --head --write-out '%{http_code}\n'  http://localhost:8080/api/intent?sentence=trouve%20des%20toilette ])
+              attempts=$((attempts+1))
+          done
+
+          if [ $attempts -le $max_attempts ]
+          then
+              echo 'Worked getting the service up'
+          else
+              echo 'Failed to get the service up'
+          fi
+
+          python -m pytest
