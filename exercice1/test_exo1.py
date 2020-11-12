@@ -27,15 +27,18 @@ test_dataset = [
 ]
 
 
+ENDPOINT = "http://ec2-35-180-41-68.eu-west-3.compute.amazonaws.com:8080/api/intent"
+
+
 def test_get_intent_probabilities():
     for intent, sentence in test_sentences.items():
-        result = get_intent_probabilities(sentence)
+        result = get_intent_probabilities(sentence, ENDPOINT)
         assert abs(sum([r for r in result.values()]) - 1) <= 10**(-5)
 
 
 def test_get_most_probable_intent():
     for intent, sentence in test_sentences.items():
-        assert get_most_probable_intent(sentence) in test_sentences.keys()
+        assert get_most_probable_intent(sentence, ENDPOINT) in test_sentences.keys()
 
 
 def test_load_json_data(tmp_path):
@@ -46,12 +49,12 @@ def test_load_json_data(tmp_path):
 
 
 def test_get_all_intents():
-    for i in get_all_intents():
+    for i in get_all_intents(ENDPOINT):
         assert i in test_sentences.keys()
 
 
 def test_score():
-    output = score(test_dataset)
+    output = score(test_dataset, ENDPOINT)
     assert isinstance(output['report'], str)
     cm = output['cm']
     assert cm.shape == (8, 8)
