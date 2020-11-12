@@ -59,7 +59,7 @@ def get_raw_testing_data(path: str = './testing_set.json'):
     return load_json_data(path)
 
 
-def score(raw_data: dict) -> dict:
+def score(raw_data: dict, endpoint: str = 'http://localhost:8080/api/intent') -> dict:
     """
     Compute the scores based on the given raw JSON dataset.
 
@@ -68,8 +68,8 @@ def score(raw_data: dict) -> dict:
         - 'cm': which is a confusion matrix not normalized
     """
     y_true = [message['intent'] for message in raw_data]
-    y_pred = [get_most_probable_intent(message['sentence']) for message in raw_data]
-    labels = get_all_intents()
+    y_pred = [get_most_probable_intent(message['sentence'], endpoint) for message in raw_data]
+    labels = get_all_intents(endpoint)
     return {
         'report': classification_report(y_true, y_pred, zero_division=0),
         'cm': confusion_matrix(y_true, y_pred, labels=labels)
