@@ -27,7 +27,7 @@ test_dataset = [
 ]
 
 
-ENDPOINT = "http://ec2-35-180-41-68.eu-west-3.compute.amazonaws.com:8080/api/intent"
+ENDPOINT = "http://localhost:8080/api/intent"
 
 
 def test_get_intent_probabilities():
