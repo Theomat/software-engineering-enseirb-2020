@@ -25,3 +25,17 @@ With equals contributions:
 - Run the docker image on port 8080 :
 
   ```sudo docker run -p 8080:8080 wiidiiremi/projet_industrialisation_ia_3a```
+
+#### Install Spacy dependencies for French text processing
+
+- Install Spacy :
+
+  ```conda install -c conda-forge spacy```
+
+- Install Spacy french modules :
+
+  ```python -m spacy download fr_core_news_sm```
+
+- Install Leff for french lemmatization :
+
+  ```pip install spacy-lefff```
