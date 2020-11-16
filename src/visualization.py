@@ -1,12 +1,20 @@
 import seaborn as sn
 import matplotlib.pyplot as plt
 
+from typing import List
+from numbers import Number
+
 import numpy as np
 
 
-def plot_confusion_matrix(cm, labels, title='Confusion Matrix', fmt="d"):
+def plot_confusion_matrix(cm: List[List[Number]], labels: List[str], title='Confusion Matrix', fmt="d"):
     """
     Plot the specified confusion matrix with seaborn.
+
+    Parameters
+    -----------
+    - **cm**: the confusion matrix to be plotted.
+    - **labels**: the labels for each row/column.
     """
 
     plt.figure(figsize=(10, 7))
@@ -29,6 +37,14 @@ def plot_confusion_matrix(cm, labels, title='Confusion Matrix', fmt="d"):
 
 
 def plot_distribution(raw_training_data: dict, raw_testing_data: dict):
+    """
+    Plot the distribution of raw training and testing data
+
+    Parameters
+    -----------
+    - **raw_training_data**: the training data.
+    - **raw_testing_data**: the testing data.
+    """
 
     intents_training = [msg["intent"] for msg in raw_training_data]
     intents_test = [msg["intent"] for msg in raw_testing_data]
