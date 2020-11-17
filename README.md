@@ -28,7 +28,7 @@ With equals contributions:
 
 #### Install Spacy dependencies for French text processing
 
-- Install Spacy :
+- Install Spacy (with conda, recommended for development):
 
   ```conda install -c conda-forge spacy```
 
@@ -36,6 +36,24 @@ With equals contributions:
 
   ```python -m spacy download fr_core_news_sm```
 
-- Install Leff for french lemmatization :
 
-  ```pip install spacy-lefff```
+#### Run our web api locally (with Docker):
+
+
+- In orther to run the application locally first build the image. To do so, run in the root of of the project:
+
+  ```docker build -t engsw-project:1.0 .```
+
+- Then, run the container and application will start on the port you define (in the example, port 8000):
+
+  ```docker run -d -p 8000:80 engsw-project:1.0```
+
+  ___note: it may take a few seconds for service to start up___
+
+
+#### Run performance tests locally:
+- Install the [go-bombardier](https://github.com/codesenberg/bombardier) performance test tool
+
+- With the service running on local port `8000` just run the `./scripts/perf_test.sh` see reports of the service performance
+
+  ___note: this is a simple performance test that get us some information. further implementation is needed___
