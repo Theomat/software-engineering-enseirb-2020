@@ -1,4 +1,4 @@
-from typing import List, Dict, Tuple
+from typing import List, Dict, Tuple, Optional
 
 import spacy
 from spacy.lang.fr import French as SpacyModel
@@ -56,7 +56,8 @@ def get_spacy_model(labels: List[str]) -> SpacyModel:
     return nlp
 
 
-def train(model: SpacyModel, X: List[str], y: List[Dict[str, bool]], n_iter: int = 10) -> SpacyModel:
+def train(model: SpacyModel, X: List[str], y: List[Dict[str, bool]], n_iter: int = 10,
+          test: Optional[Tuple[List[str], List[Dict[str, bool]]]] = None) -> SpacyModel:
     """
     Re-train the given space model with the texts and labels passed.
 
@@ -66,6 +67,7 @@ def train(model: SpacyModel, X: List[str], y: List[Dict[str, bool]], n_iter: int
     - **X**: the texts inputs.
     - **y**: labels.
     - **n_iter**: (*optional*) the amount of iterations to train for(epochs).
+    - **test**: (*optional*) the test data set to get the test scores
 
     Return
     ----------
@@ -73,6 +75,10 @@ def train(model: SpacyModel, X: List[str], y: List[Dict[str, bool]], n_iter: int
     """
 
     train_data = list(zip(X, [{"cats": cats} for cats in y]))
+    if test:
+        test_data = list(zip(test[0], [{"cats": cats} for cats in test[1]]))
+    else:
+        test_data = None
 
     # get names of other pipes to disable them during training
     pipe_exceptions = ["textcat", "trf_wordpiecer", "trf_tok2vec"]
@@ -93,7 +99,12 @@ def train(model: SpacyModel, X: List[str], y: List[Dict[str, bool]], n_iter: int
                 texts, annotations = zip(*batch)
                 model.update(texts, annotations, sgd=optimizer, drop=0.2, losses=losses)
 
-            print(f'Iteration {i}/{n_iter}. train_loss: {losses["textcat"]}')
+            scores = model.evaluate(test_data).scores
+            if test:
+                textcat_score = scores["textcat_score"]
+                print(f'Iteration {i}/{n_iter}. train_loss: {losses["textcat"]} test score:{textcat_score}%')
+            else:
+                print(f'Iteration {i}/{n_iter}. train_loss: {losses["textcat"]}')
 
     return model
 
