@@ -34,7 +34,7 @@ On veut que:
 
 L'objectif 1. se traduit de plusieurs façon.
 En premier lieu, cela implique que si l'on n'est pas sûr de l'intention de l'utilisateur, on préferera dire que l'intention est 'irrelevant'.
-En second lieu, avec l'objectif 2., cela veut dire qu'on veut un fort recall, le recall est le taux de vrai positif prédit correctement.
+En second lieu, avec l'objectif 2., cela veut dire qu'on veut un fort recall, ce qui représente que toutes les données appartenant à une classe doivent être le moins possible associées à une autre classe (hormis à la classe "irrelevant", ce qui s'observera dans les matrices de confusion).
 
 Enfin, on veut un taux de faux positif très bas pour les classes autres que 'irrelevant', pour s'assurer que l'utilisateur ne se lance pas dans une démarche non souhaitée.
 Ce taux de faux positif bas se traduit par une forte précision.

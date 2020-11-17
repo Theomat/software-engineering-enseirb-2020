@@ -30,8 +30,8 @@ def plot_confusion_matrix(cm: List[List[Number]], labels: List[str], title='Conf
     ax.xaxis.set_ticklabels(ax.xaxis.get_ticklabels(), rotation=45, ha='right')
 
     ax.set(title=title,
-           ylabel='Predicted label',
-           xlabel='True label')
+           ylabel='True label',
+           xlabel='Predicted label')
 
     plt.show()
 
