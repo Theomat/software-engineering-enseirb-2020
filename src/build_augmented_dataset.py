@@ -4,6 +4,8 @@ import json
 from typing import List, Dict
 
 import spacy
+from spacy.lang.fr.stop_words import STOP_WORDS
+
 
 import numpy as np
 
@@ -20,9 +22,12 @@ assert np.sum(probs) == 1, f"Probabilities sum={np.sum(probs)}"
 # Load the model and the training set
 print("Loading model...")
 nlp = spacy.load("fr_core_news_lg")
+vocabulary: List[str] = list(nlp.vocab.strings)
+print("Full Vocabulary size:", len(vocabulary))
 raw_training_data = get_raw_training_data('./data/training_set.json')
 # Create a generator to use for random numbers
 generator: np.random.Generator = np.random.default_rng(seed)
+
 
 # Count the number of examples per class
 counts: Dict[str, int] = {}
@@ -38,12 +43,16 @@ for intent, nb in counts.items():
         new_examples_per_class[intent] = max_examples - nb
         print(f"\t{intent} will have {max_examples - nb} new examples")
 
+# =============================================================================
+print("Filtering vocabulary...")
+print("\tTransforming words into tokens...")
+tokens = [nlp(w)[0] for w in vocabulary if w not in STOP_WORDS]
+print("\tFiltering tokens...")
+filtered_words = np.unique([w for w in tokens if w.pos_ in classes_to_change and w.is_lower]).tolist()
+print(f"Filtered vocabulary size:{len(filtered_words)}")
+
 
 # =============================================================================
-filtered_words = [w for w in nlp.vocab if not w.is_stop and w.is_lower and w.has_vector]
-print(f"Vocabulary of {len(filtered_words)} lemmas")
-
-
 def get_synonyms(lemma, n=10):
     lexeme = nlp.vocab[lemma]
     similarity = sorted(filtered_words, key=lambda w: lexeme.similarity(w), reverse=True)
@@ -98,10 +107,11 @@ for intent, sentences in selected.items():
             print("intent=", intent, "old_sentence=", sentence)
             print("intent=", intent, "new_sentence=", new_sentence)
 
+# =============================================================================
 augmented_training_set = new_sentences + data
 generator.shuffle(augmented_training_set)
 
-
+# =============================================================================
 # Save the new dataset
 with open("../data/augmented_training_set.json", "x") as f:
     json.dump(augmented_training_set, f)
