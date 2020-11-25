@@ -52,8 +52,13 @@ With equals contributions:
 
 
 #### Run performance tests locally:
-- Install the [go-bombardier](https://github.com/codesenberg/bombardier) performance test tool
+- Be sure to have [locust](https://locust.io/) load test tool installed
 
-- With the service running on local port `8000` just run the `./scripts/perf_test.sh` see reports of the service performance
+- In the `scripts` folder run the `./perf_test.sh` script and the peformance tool will launch on `localhost:8089`
 
-  ___note: this is a simple performance test that get us some information. further implementation is needed___
+  ___note: the current model report can be found in the `reports` folder___
+
+
+### Running on docker
+
+This project is available on docker hub at [https://hub.docker.com/repository/docker/otaviojacobi/eng-soft-2020](https://hub.docker.com/repository/docker/otaviojacobi/eng-soft-2020)
