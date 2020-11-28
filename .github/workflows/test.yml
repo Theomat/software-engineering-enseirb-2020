@@ -56,4 +56,4 @@ jobs:
         run: |
           chmod +x ./scripts/start_service.sh
           bash ./scripts/start_service.sh
-          python -m pytest
+          python -m pytest --ignore ./scripts
