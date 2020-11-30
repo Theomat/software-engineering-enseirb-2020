@@ -9,6 +9,7 @@ import numpy as np
 
 from api_connector import get_most_probable_intent, get_all_intents
 
+
 def plot_confusion_matrix(cm: List[List[Number]], labels: List[str], title='Confusion Matrix', fmt="d"):
     """
     Plot the specified confusion matrix with seaborn.
@@ -83,8 +84,8 @@ def print_roc_curve(data):
         y_t = []
         y_p = []
         for k in range(len(y_true)):
-            y_t.append(y_true == intent)
-            y_p.append(y_pred == intent)
-        fpr, tpr, _ = roc_curve(y_t,y_p)
-        plt.plot(fpr,tpr,label=f'{intent}')
+            y_t.append(y_true[k] == intent)
+            y_p.append(y_pred[k] == intent)
+        fpr, tpr, _ = roc_curve(y_t, y_p)
+        plt.plot(fpr, tpr, label=f'{intent}')
     plt.show()
