@@ -69,7 +69,7 @@ def plot_distribution(raw_training_data: dict, raw_testing_data: dict):
     plt.show()
 
 
-def print_roc_curve(data):
+def plot_roc_curve(data):
     """
     Plot the roc curves of raw testing data
 
