@@ -7,7 +7,7 @@ from sklearn.metrics import roc_curve
 
 import numpy as np
 
-from api_connector import get_most_probable_intent, get_all_intents
+from .api_connector import get_most_probable_intent, get_all_intents
 
 
 def plot_confusion_matrix(cm: List[List[Number]], labels: List[str], title='Confusion Matrix', fmt="d"):
