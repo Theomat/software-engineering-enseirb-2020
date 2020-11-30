@@ -1,6 +1,7 @@
-from dataset import get_raw_training_data
-
+from src.dataset import get_raw_training_data
+import os
 import json
+import functools
 from typing import List, Dict
 
 import spacy
@@ -29,36 +30,56 @@ raw_training_data = get_raw_training_data('./data/training_set.json')
 generator: np.random.Generator = np.random.default_rng(seed)
 
 
-# Count the number of examples per class
-counts: Dict[str, int] = {}
-for msg in raw_training_data:
-    counts[msg['intent']] = counts.get(msg['intent'], 0) + 1
-
-# Compute the number of new examples to make
-print("Building new examples:")
-max_examples = max(counts.values())
-new_examples_per_class: Dict[str, int] = {}
-for intent, nb in counts.items():
-    if nb < max_examples:
-        new_examples_per_class[intent] = max_examples - nb
-        print(f"\t{intent} will have {max_examples - nb} new examples")
+new_examples_per_class: Dict[str, int] = {
+    "purchase": 187,
+    "find-around-me": 217,
+    "find-flight": 142,
+    "find-hotel": 184,
+    "find-restaurant": 231,
+    "find-train": 157,
+    "provide-showtimes": 183,
+}
 
 # =============================================================================
 print("Filtering vocabulary...")
 print("\tTransforming words into tokens...")
-tokens = [nlp(w)[0] for w in vocabulary if w not in STOP_WORDS]
-print("\tFiltering tokens...")
-filtered_words = np.unique([w for w in tokens if w.pos_ in classes_to_change and w.is_lower]).tolist()
+nlp.max_length = 1000000
+filtered_words = []
+if os.path.exists("./vocab.json"):
+    print("\tReusing vocabulary...")
+    with open("./vocab.json", "r") as fp:
+        words = json.load(fp)
+    for i in range(0, len(words), 50000):
+        tokens = " ".join([w for w in words[i:min(len(words) - 1, i + 50000)]])
+        tokens = nlp(tokens)
+        for token in tokens:
+            filtered_words.append(token)
+else:
+    print("\tComputing vocabulary...")
+    for i in range(0, len(vocabulary), 50000):
+        tokens = " ".join([w for w in vocabulary[i:min(len(vocabulary) - 1, i + 50000)] if w not in STOP_WORDS])
+        tokens = nlp(tokens)
+        filtered_words += np.unique([w for w in tokens if w.pos_ in classes_to_change and w.is_lower]).tolist()
+    with open("./vocab.json", "x") as fp:
+        json.dump([w.text for w in filtered_words], fp)
 print(f"Filtered vocabulary size:{len(filtered_words)}")
 
-
 # =============================================================================
+cache = {}
+
+
+@functools.lru_cache(maxsize=-1)
 def get_synonyms(lemma, n=10):
+    if lemma in cache:
+        return cache[lemma]
     lexeme = nlp.vocab[lemma]
     similarity = sorted(filtered_words, key=lambda w: lexeme.similarity(w), reverse=True)
     if DEBUG:
         print([(w.orth_, lexeme.similarity(w)) for w in similarity[:n]])
-    return [w.text for w in similarity[:n]]
+
+    out = [w.text for w in similarity[:n]]
+    cache[lemma] = out
+    return out
 
 
 # =============================================================================
@@ -86,7 +107,7 @@ for intent, sentences in selected.items():
         for word in nlp(sentence):
             # Change only if the word is in the correct class
             if word.pos_ in classes_to_change and word.has_vector:
-                lemma = word.lemma_
+                lemma: str = word.lemma_
                 # Find n + 1 most similar
                 # n + 1 because the most similar vector to a vector v is v itself !
                 synonyms: List[str] = get_synonyms(lemma, 1 + probs.shape[0])
@@ -106,6 +127,7 @@ for intent, sentences in selected.items():
         if DEBUG:
             print("intent=", intent, "old_sentence=", sentence)
             print("intent=", intent, "new_sentence=", new_sentence)
+    print("Finished augmenting ", intent)
 
 # =============================================================================
 augmented_training_set = new_sentences + data
