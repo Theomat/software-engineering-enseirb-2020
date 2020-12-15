@@ -128,3 +128,32 @@ def predict(model: SpacyModel, X: List[str]) -> List[str]:
         prediction.append(model(text).cats)
 
     return [max(result, key=result.get) for result in prediction]
+
+
+def predict_with_threshold(model: SpacyModel, X: List[str], threshold: float, default_label: str) -> List[str]:
+    """
+    Predict the label for each text.
+    The labels are given if the associated probability is greater than the thresold.
+
+    Parameters
+    -----------
+    - **model**: the model to use.
+    - **X**: the texts inputs.
+
+    Return
+    ----------
+    A List containing the label of each text.
+    """
+
+    prediction = []
+    for text in X:
+        prediction.append(model(text).cats)
+    ret = []
+    for result in prediction:
+        pred = max(result, key=result.get)
+        if result[pred] >= threshold:
+            ret.append(pred)
+        else:
+            ret.append(default_label)
+
+    return ret
