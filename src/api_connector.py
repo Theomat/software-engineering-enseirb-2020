@@ -74,6 +74,7 @@ def api_score(raw_data: List[Dict[str, str]], endpoint: str = 'http://localhost:
     The output dictionnary contains two keys:
         - 'report': which is a classification report given by scikit learn
         - 'cm': which is a confusion matrix not normalized
+        - 'kappa': which gives a scalar representing Cohen's kappa score
     """
     y_true = [message['intent'] for message in raw_data]
     y_pred = [get_most_probable_intent(message['sentence'], endpoint) for message in raw_data]
