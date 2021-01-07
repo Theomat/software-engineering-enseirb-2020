@@ -1,4 +1,4 @@
-# Quels objectifs pour notre modèle ?
+# Exercice 2: Quels objectifs pour notre modèle ?
 
 Reprenons la matrice de confusion pour le recall :
 ![confusion matrix](https://raw.githubusercontent.com/Theomat/software-engineering-enseirb-2020/main/exercice2/original_confusion_matrix.png)
