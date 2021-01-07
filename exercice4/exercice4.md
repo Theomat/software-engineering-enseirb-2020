@@ -1,4 +1,4 @@
-## Exercice 4
+# Exercice 4: Mise en place d'un service
 
 Dans l'exercice 4, nous avons utilisé FastAPI pour développer la même API que le modèle précédent.
 Toute l'API est documentée dans la route /docs du service avec des exemples d'utilisation appropriés.
