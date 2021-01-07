@@ -128,3 +128,128 @@ def predict(model: SpacyModel, X: List[str]) -> List[str]:
         prediction.append(model(text).cats)
 
     return [max(result, key=result.get) for result in prediction]
+
+
+def predict_with_threshold(model: SpacyModel, X: List[str], threshold: float, default_label: str) -> List[str]:
+    """
+    Predict the label for each text.
+    The labels are given if the associated probability is greater than the thresold.
+
+    Parameters
+    -----------
+    - **model**: the model to use.
+    - **X**: the texts inputs.
+
+    Return
+    ----------
+    A List containing the label of each text.
+    """
+
+    prediction = []
+    for text in X:
+        prediction.append(model(text).cats)
+    ret = []
+    for result in prediction:
+        pred = max(result, key=result.get)
+        if result[pred] >= threshold:
+            ret.append(pred)
+        else:
+            ret.append(default_label)
+
+    return ret
+
+
+def get_spacy_irrelevant_model(labels: List[str]) -> SpacyModel:
+    """
+    Get a trainable classifier SpacyModel for given possible labels.
+
+    Return
+    ----------
+    The spacy model.
+    """
+
+    nlp = spacy.load('fr_core_news_sm')
+
+    textcat = nlp.create_pipe("textcat", config={"exclusive_classes": True, "architecture": "ensemble"})
+    nlp.add_pipe(textcat, last=True)
+
+    textcat.add_label("irrelevant")
+    textcat.add_label("relevant")
+
+    return nlp
+
+
+def get_spacy_others_model(labels: List[str]) -> SpacyModel:
+    """
+    Get a trainable classifier SpacyModel for given possible labels.
+
+    Return
+    ----------
+    The spacy model.
+    """
+
+    nlp = spacy.load('fr_core_news_sm')
+
+    textcat = nlp.create_pipe("textcat", config={"exclusive_classes": True, "architecture": "ensemble"})
+    nlp.add_pipe(textcat, last=True)
+
+    for label in labels:
+        if label != "irrelevant":
+            textcat.add_label(label)
+
+    return nlp
+
+
+def format_data_as_spacy_irrelevant(raw_data: List[Dict[str, str]]) -> Tuple[List[str], List[Dict[str, bool]]]:
+    """
+    Format the raw_data as the format expected by spacy.
+
+    Parameters
+    -----------
+    - **raw_data**: the dataset to be formatted.
+
+    Return
+    ----------
+    A Tuple containing the texts and labels in spacy format.
+    The texts are a list of sentences.
+    The labels are a list of Dict where each Dict has all labels as keys and a bool.
+    saying if it belongs or not to given class.
+    """
+
+    texts = [td['sentence'] for td in raw_data]
+    labels = [td['intent'] for td in raw_data]
+
+    cats = [{'relevant': y != 'irrelevant',
+             'irrelevant': y == 'irrelevant'} for y in labels]
+
+    return texts, cats
+
+
+def format_data_as_spacy_others(raw_data: List[Dict[str, str]]) -> Tuple[List[str], List[Dict[str, bool]]]:
+    """
+    Format the raw_data as the format expected by spacy.
+
+    Parameters
+    -----------
+    - **raw_data**: the dataset to be formatted.
+
+    Return
+    ----------
+    A Tuple containing the texts and labels in spacy format.
+    The texts are a list of sentences.
+    The labels are a list of Dict where each Dict has all labels as keys and a bool.
+    saying if it belongs or not to given class.
+    """
+
+    texts = [td['sentence'] for td in raw_data]
+    labels = [td['intent'] for td in raw_data]
+
+    cats = [{'find-around-me': y == 'find-around-me',
+             'purchase': y == 'purchase',
+             'find-hotel': y == 'find-hotel',
+             'provide-showtimes': y == 'provide-showtimes',
+             'find-train': y == 'find-train',
+             'find-flight': y == 'find-flight',
+             'find-restaurant': y == 'find-restaurant'} for y in labels]
+
+    return texts, cats
