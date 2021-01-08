@@ -64,9 +64,11 @@ With equals contributions:
 This project is available on docker hub at [https://hub.docker.com/repository/docker/otaviojacobi/eng-soft-2020](https://hub.docker.com/repository/docker/otaviojacobi/eng-soft-2020)
 
 - In order to downloadthe latest version of the service directly from Dockerhub you can run:
+
   ```docker pull otaviojacobi/eng-soft-2020```
 
-- And to run the service
+- And to run the service:
+
   ```docker run -d -p 8000:80 otaviojacobi/eng-soft-2020```
 
 And after a few seconds, the service will be available on port `8000`.
