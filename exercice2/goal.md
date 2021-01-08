@@ -50,3 +50,8 @@ Le recall le plus bas est de 0.29 dans le modèle d'origine, là on veut une for
 
 Le cas particulier de 'irrelevant', on veut dans la matrice de confusion normalisée pour le recall, que les éléments non diagonaux soient inférieurs à 0.05 exceptés pour la colonne 'irrelevant'.
 On veut un recall élevé pour 'irrelevant' mais pour la précision, on s'autorise une valeur plus faible puisque l'on préfère classer en 'irrelevant' si l'on n'est pas suffisamment sûr de l'intention utilisateur, ce qui se traduit en une augmentation du taux de faux positif.
+
+
+## Seuil
+
+L'utilisation d'un seuil peut se révéler utile dans notre situation. Rappelons que l'on ne veut pas que l'utilisateur se lance dans une intention sauf si on est suffisamment confiant dans la détection de l'intention. Maintenant, il est possible que le modèle hésite entre deux intentions avec des probabilités pour ces deux classes autour de 0.4. Sans seuil, la classe choisie sera la plus élevée des deux, mais la confiance dans l'intention de l'utilisateur est relativement faible. En effet, l'écart entre le meilleur choix et le second choix est presque inexistant. Tandis qu'avec un seuil par exemple à 0.7, toute classification où la probabilité est inférieure à 0.7 est classifiée en tant que 'irrelevant'. Cela permet de continuer l'échange avec l'utilisateur afin de clarifier l'intention et d'éviter de faire un jugement où le modèle n'est pas vraiment confiant dans la détection l'intention utilisateur.
