@@ -50,3 +50,8 @@ Le recall le plus bas est de 0.29 dans le modèle d'origine, là on veut une for
 
 Le cas particulier de 'irrelevant', on veut dans la matrice de confusion normalisée pour le recall, que les éléments non diagonaux soient inférieurs à 0.05 exceptés pour la colonne 'irrelevant'.
 On veut un recall élevé pour 'irrelevant' mais pour la précision, on s'autorise une valeur plus faible puisque l'on préfère classer en 'irrelevant' si l'on n'est pas suffisamment sûr de l'intention utilisateur, ce qui se traduit en une augmentation du taux de faux positif.
+
+
+## Threshold
+
+L'utilisation d'un theshold peut se révéler utile dans notre situation. Rappelons que l'on ne vaut pas que l'utilisateur se lance dans une intention sauf si on est suffisamment confiant dans la détection de l'intention. Maintenant, il est possible que le modèle hésite entre deux intentions avec des probabilités pour ces deux classes autour de 0.4. Sans threshold on va choisir le plus haut des deux mais sans être vraiment confiant dans le résultat. Tandis qu'avec un threshold par exemple à 0.5 bloquerait la classification, à la place on classifierait l'exemple comme ```irrelevant``` permettant de continuer l'échange avec l'utilisateur afin de clarifier l'intention.
